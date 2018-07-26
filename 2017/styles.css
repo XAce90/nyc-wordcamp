@@ -1,0 +1,2224 @@
+/* Remote CSS from https://api.github.com/repos/macgraphic/WCBelfast18/contents/site-styles-min.css */
+/*
+Add-on styles for WCBelfast - based on the CampSite 2017 theme
+*/
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 600;
+	color: #1f141c;
+}
+
+/* Header */
+.site-branding {
+	text-align: center;
+}
+
+/*
+.site-branding {
+	background: url('https://2018.belfast.wordcamp.org/files/2017/12/belfast-outline.png') #f2f2f2;
+	background-position: bottom 0 center;
+	background-repeat: repeat-x;
+	border-bottom: 6px solid #fab200;
+}
+*/
+.wcorg-organizers {
+	margin-top: 100px;
+}
+
+.navigation-top {
+	background: #1f141c;
+	border: none;
+}
+
+.navigation-top a {
+	color: #ccc;
+}
+
+.navigation-top a:hover, .navigation-top a:focus, .navigation-top a:active {
+	color: #fff;
+}
+
+.navigation-top .current-menu-item > a, .navigation-top .current_page_item > a {
+	color: #fff;
+}
+
+/* Menu on small screens */
+.menu-toggle {
+	color: #fab200;
+}
+
+body {
+	background: #f3f3f3;
+}
+
+.page .panel-content .entry-title, .page-title, body.page .entry-title {
+	font-size: 2rem !important;
+	color: #1f141c !important;
+	text-align: center;
+}
+
+header.entry-header .edit-link {
+	display: none;
+}
+
+.home-column.usr-lvl .wp-block-column {
+	border: 1px solid #fab200;
+	background: #f2f2f2;
+}
+
+.home-column.usr-lvl .wp-block-column h5 {
+	color: #1f141c;
+	background: #fab200;
+	padding: .5rem;
+	font-size: 1.1rem;
+}
+
+.home-column.usr-lvl .wp-block-column p {
+/*font-size: 120%;*/
+	font-weight: 400;
+}
+
+/* Home Page 2016 Stats */
+h2.stats-head {
+	margin: 2rem auto 1rem;
+	text-align: center;
+}
+
+.sixteen-stats-section {
+	text-align: center;
+}
+
+.sixteen-stats-section .wp-block-column {
+	border-top: 4px solid #fab200;
+	background: #f2f2f2;
+}
+
+.sixteen-stats-section p {
+	font-weight: 900;
+	font-size: 1.2rem;
+	color: #fab200;
+}
+
+.sixteen-stats-section span.number {
+	font-size: 4rem;
+	font-weight: 600;
+	color: #1f141c;
+}
+
+.sixteen-stats-section span.number:after {
+	content: '';
+}
+
+/* Footer */
+.site-footer {
+	background: #fafafa;
+}
+
+.site-footer .widget-column.footer-widget-1 {
+	width: 100%;
+}
+
+.site-footer h2.widget-title {
+	font-size: 2.4rem;
+	text-align: center;
+	margin-bottom: 1em;
+}
+
+.site-footer .sponsor-level {
+	padding: 1rem 0;
+}
+
+.site-footer .sponsor-level h4.sponsor-level-title {
+	text-align: center;
+	color: #fab200;
+}
+
+#wcb_sponsors-2.widget.wcb_widget_sponsors {
+	text-align: center;
+}
+
+.wcb_widget_sponsors a.sponsor-logo {
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	padding: 0;
+	margin: 1rem;
+	text-align: center;
+	background: #fff;
+}
+
+.wcb_widget_sponsors .entry-content a img, .wcb_widget_sponsors .widget a img, .widget a, .site-footer .widget-area a, .wcb_widget_sponsors a.sponsor-logo {
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+}
+
+body.page-slug-call-for-sponsors .sponsor-package-top {
+	background: #fab200;
+	color: #1f141c;
+	margin-bottom: 0;
+	padding: 1.4rem 1rem 0;
+	text-align: center;
+	font-weight: 600;
+}
+
+body.page-slug-call-for-sponsors .sponsor-package-mid {
+	border-right: 1px solid #fab200;
+	border-left: 1px solid #fab200;
+	padding: 1rem;
+	margin-bottom: 0;
+}
+
+body.page-slug-call-for-sponsors .sponsor-package-btm {
+	border: 1px solid #fab200;
+	border-top: none;
+	padding: 0 1rem 1rem 4rem;
+}
+
+body.page-slug-call-for-sponsors p.sponsor-package-note {
+	font-size: 1.25em;
+	font-style: italic;
+}
+
+.terms-notice {
+	border: 1px solid #e0e0e0;
+	background: #f2f2f2;
+	padding: 1rem;
+	margin: 1rem 0;
+}
+
+.coc-notice {
+	border: 1px solid #fab200;
+	padding: 1rem;
+	background: rgba(250,178,0,0.2);
+	margin: 1rem 0;
+}
+
+.site-info {
+	float: none;
+	width: 100%;
+	text-align: center;
+}
+
+.wp-block-separator {
+	border-bottom: 2px solid #e0e0e0;
+}
+
+hr {
+	background-color: #e0e0e0;
+}
+
+.privacy-notice p {
+	margin: 1rem 0;
+	padding: .5rem;
+	background: #f2f2f2;
+	border: 1px solid #e5e5e5;
+	font-size: .9rem;
+	text-align: left;
+	line-height: 1.25rem;
+}
+
+/* Tickets Table */
+table.tix_tickets_table {
+	border: 1px solid;
+	border-color: #fab200 !important;
+}
+
+table.tix_tickets_table thead {
+	background: #fab200;
+	padding: .25rem;
+}
+
+table.tix_tickets_table thead th, table.tix_tickets_table td {
+	padding: .25rem;
+}
+
+table.tix_tickets_table .tix-column-price, table.tix_tickets_table .tix-column-remaining, table.tix_tickets_table .tix-column-quantity {
+	text-align: center;
+	border-left: 1px solid rgba(250,178,0,0.2);
+}
+
+table.tix_tickets_table tr, table.tix_tickets_table thead th {
+	border-bottom: 1px solid rgba(250,178,0,0.2);
+	padding: .5rem;
+}
+
+body.page-id-9 #wcorg-session-1736, body.page-id-9 #wcorg-session-1734, body.page-id-9 #wcorg-session-1732, body.page-id-9 #wcorg-session-1730, body.page-id-9 #wcorg-session-1736 {
+	display: none;
+}
+
+@media only screen and (min-width: 30em) {
+	.site-branding {
+		padding: 1.5em 0;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.navigation-top .current-menu-item > a, .navigation-top .current_page_item > a {
+		color: #1f141c;
+	}
+}
+
+@media screen and (min-width: 37.5em) {
+	.wcorg-organizer .wcorg-organizer-description {
+		padding-left: 7rem;
+		min-height: 7rem;
+	}
+	
+	.wcorg-organizerss .avatar {
+		margin: 0 0 -7rem -7rem !important;
+		width: 5rem !important;
+		border-radius: 50%;
+		float: left;
+	}
+	
+	.wcorg-organizer .wcorg-organizer-description h4 {
+		padding-top: 0;
+	}
+}
+
+@media screen and (min-width: 48em) {
+	#masthead .wrap {
+		text-align: center;
+	}
+	
+	.custom-header {
+		margin-bottom: 70px;
+	}
+	
+	.main-navigation a {
+		padding: 1em;
+	}
+	
+	.main-navigation ul ul.sub-menu a {
+		color: #1f141c;
+	}
+	
+	.main-navigation ul ul a:hover {
+		color: #fab200;
+		background: #1f141c;
+	}
+	
+	.site-branding .custom-logo-link img {
+		max-height: 110px;
+	}
+	
+	.site-title, .site-title a {
+		font-size: 50px;
+		color: #1f141c;
+	}
+	
+	.site-branding-text p.site-description {
+		font-size: 1.35rem;
+	}
+	
+	.panel-image {
+		width: 100%;
+		max-height: 400px;
+		margin: 0 auto;
+	}
+	
+	.panel-image img {
+		max-height: 400px;
+		width: 1200px;
+		max-width: 100%;
+		margin: 0 auto;
+	}
+	
+	.background-fixed .panel-image {
+		border-bottom: 4px solid #fab200;
+		background-attachment: initial;
+	}
+	
+	/*
+							#content.site-content {
+								background: url('https://2018.belfast.wordcamp.org/files/2017/12/belfast.png');
+								background-position: bottom center;
+								background-repeat: repeat-x;
+								padding-bottom: 8em;
+							}
+						  */
+	.page:not(.home) #content {
+		padding-bottom: 8em;
+	}
+	
+	.page-slug-sessions #content .wcorg-session, .page-slug-our-speakers #content .wcorg-speakers {
+		padding-top: 8rem;
+	}
+	
+	.site-footer {
+		margin-top: 0;
+	}
+	
+	.site-footer .widget-column.footer-widget-2 {
+		float: none;
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+	}/*	body.page-id-9 .wcorg-session { margin-top: 6.4rem; }*/
+	/* The following needs amended */
+	/*	body.page-slug-call-for-sponsors .contact-form input { max-width: 48% !important; display: inline-block !important; float: right; } body.page-slug-call-for-sponsors .contact-form label { display: inline-block; }*/
+	
+}
+
+body.single-wcb_sponsor .single-featured-image-header {
+	background: transparent;
+	margin: 2rem auto;
+	max-width: 600px;
+	max-height: 400px;
+}
+
+@media screen and (min-width: 30em) {
+	.page-one-column .panel-content .wrap {
+		max-width: 1000px;
+	}
+	
+	.single-featured-image-header {
+		max-height: 400px;
+		border-bottom: none;
+	}
+}
+
+/* Gutenberg Blocks */
+/* Home Page */
+.home-column {
+	text-align: center;
+}
+
+/* Shutter Out Horizontal */
+.home-top-block.shutter-out-horizontal {
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	-webkit-box-shadow: 0 0 1px transparent;
+	box-shadow: 0 0 1px transparent;
+	position: relative;
+	background: #fab200;
+	border: 3px solid #fab200;
+	color: #fff;
+	-webkit-transition-property: all;
+	transition-property: all;
+	-webkit-transition-duration: .3s;
+	transition-duration: .3s;
+}
+
+.home-top-block.shutter-out-horizontal:before {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: #1f141c;
+	border: 4px solid #fab200;
+	color: #fff;
+	-webkit-transform: scaleX(0);
+	transform: scaleX(0);
+	-webkit-transform-origin: 50%;
+	transform-origin: 50%;
+	-webkit-transition-property: all;
+	transition-property: all;
+	-webkit-transition-duration: .3s;
+	transition-duration: .3s;
+	-webkit-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
+}
+
+.home-top-block.shutter-out-horizontal:hover, .shutter-out-horizontal:focus, .shutter-out-horizontal:active {
+	color: #fff;
+}
+
+.home-top-block.shutter-out-horizontal:hover:before, .shutter-out-horizontal:focus:before, .shutter-out-horizontal:active:before {
+	-webkit-transform: scaleX(1);
+	transform: scaleX(1);
+}
+
+.home-top-block.shutter-out-horizontal a img {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.home-top-block.shutter-out-horizontal p {
+	font-size: 1.2rem;
+	font-weight: 700;
+	color: #fff;
+	margin: .5rem auto;
+}
+
+body.home .entry-header {
+	display: none;
+}
+
+body.home .entry-content {
+	margin-top: -12rem;
+}
+
+/* Schedule Table */
+body.page-id-1527 h2 {
+	text-align: center;
+	font-weight: 400;
+}
+
+table.wcpt-schedule td.wcpt-time {
+	font-size: .9rem;
+}
+
+.wcpt-schedule td.wcpt-time {
+	vertical-align: middle;
+}
+
+table.wcpt-schedule td {
+	border-color: #fab200 !important;
+	padding: .5rem;
+}
+
+table.wcpt-schedule td.wcb-track-farset-labs, table.wcpt-schedule th.wcpt-col-track {
+	text-align: center;
+}
+
+table.wcpt-schedule tr:nth-child(even) {
+	background: rgba(31,20,28,0.0125);
+}
+
+table.wcpt-schedule tr:nth-child(odd) {
+	background: rgba(31,20,28,0.025);
+}
+
+table.wcpt-schedule td.wcpt-session-type-custom {
+	text-align: center;
+	background: rgba(31,20,28,0.05);
+	color: #1f141c;
+}
+
+table.wcpt-schedule thead {
+	background: none;
+	font-size: .9rem;
+}
+
+a.fav-session-button {
+	color: #d5d5d5 !important;
+	text-decoration: none !important;
+}
+
+a.fav-session-button:hover, a.fav-session-button:active, a.fav-session-button:focus, td.wcb-favourite-session a.fav-session-button {
+	color: #fab200 !important;
+	text-decoration: none !important;
+}
+
+table.wcpt-schedule a {
+	text-decoration: none !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+}
+
+table.wcpt-schedule a.wcpt-session-title {
+	font-weight: 600;
+	color: #5d5d5d;
+}
+
+table.wcpt-schedule a.wcpt-session-title:hover {
+	color: #1f141c;
+}
+
+table.wcpt-schedule span.wcpt-session-speakers, table.wcpt-schedule span.wcpt-session-speakers a {
+	font-size: .85rem;
+	color: #757575;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	font-style: italic;
+}
+
+/* Schedule Session Categories */
+.wcb-session-category-community::after, .wcb-session-category-business::after, .wcb-session-category-design::after, .wcb-session-category-development::after, .wcb-session-category-design-development::after, .wcb-session-category-hot-topic::after, .wcb-session-category-business-hot-topic::after, .wcb-session-category-business-development::after, .wcb-session-category-business-community::after, .wcb-session-category-community-design::after {
+	border-radius: .85rem;
+	padding: 3px 8px;
+	margin-top: 4px;
+	display: inline-block;
+	font-size: .85rem;
+	font-weight: 600;
+	color: #454545;
+}
+
+.wcb-session-category-community::after {
+	content: "Community";
+	border: 2px solid #0073aa;
+}
+
+.wcb-session-category-business::after {
+	content: "Business";
+	border: 2px solid #454545;
+}
+
+.wcb-session-category-design::after {
+	content: "Design";
+	border: 2px solid #006837;
+}
+
+.wcb-session-category-development::after {
+	content: "Development";
+	border: 2px solid #f7931e;
+}
+
+.wcb-session-category-hot-topic::after {
+	content: "Hot Topic";
+	border-bottom: 2px solid #c1272d;
+}
+
+.wcb-session-category-business-hot-topic::after {
+	content: "Business / Hot Topic";
+	border-top: 2px solid #454545;
+	border-bottom: 2px solid #c1272d;
+}
+
+.wcb-session-category-design-development::after {
+	content: "Design / Development";
+	border-top: 2px solid #006837;
+	border-bottom: 2px solid #f7931e;
+}
+
+.wcb-session-category-business-development::after {
+	content: "Business / Development";
+	border-top: 2px solid #454545;
+	border-bottom: 2px solid #f7931e;
+}
+
+.wcb-session-category-business-community::after {
+	content: "Business / Community";
+	border-top: 2px solid #454545;
+	border-bottom: 2px solid #0073aa;
+}
+
+.wcb-session-category-community-design::after {
+	content: "Community / Design";
+	border-top: 2px solid #0073aa;
+	border-bottom: 2px solid #006837;
+}
+
+@media only screen and (min-width: 40.063em) {
+	.wcb_widget_sponsors .sponsor-level.admin a.sponsor-logo {
+		max-width: 380px;
+		max-height: 139px;
+	}
+	
+	.wcb_widget_sponsors .sponsor-level.editor a.sponsor-logo {
+		max-width: 300px;
+		max-height: 110px;
+	}
+	
+	.wcb_widget_sponsors .sponsor-level.author a.sponsor-logo {
+		max-width: 220px;
+		max-height: 81px;
+	}
+	
+	.wcb_widget_sponsors .sponsor-level.contributor a.sponsor-logo {
+		max-width: 160px;
+		max-height: 59px;
+	}
+	
+	.wcb_widget_sponsors .sponsor-level.subscriber a.sponsor-logo, .wcb_widget_sponsors .sponsor-level.sponsor-in-kind a.sponsor-logo {
+		max-width: 140px;
+		max-height: 51px;
+	}
+}
+
+@media only screen and (max-width: 40em) {
+	.wp-block-text-columns, .wp-block-text-columns .wp-block-column {
+		width: 100% !important;
+		display: block !important;
+	}
+	
+	.wp-block-text-columns .wp-block-column {
+		width: 100%;
+		display: block;
+		margin: 1rem 0;
+	}
+	
+	.home-top-block.shutter-out-horizontal {
+		margin-top: 0;
+		padding: 1rem;
+		border: none !important;
+	}
+	
+	.home-top-block.shutter-out-horizontal p img {
+		max-width: 3rem;
+		max-height: 3rem;
+		margin: 0 auto;
+		line-height: 1rem;
+	}
+	
+	.home-top-block.shutter-out-horizontal p {
+		font-size: .85rem;
+		font-weight: 600;
+	}
+	
+	.site-footer h2.widget-title {
+		font-size: 1.5rem;
+	}
+	
+	body.home .panel-image {
+		display: none;
+	}
+	
+	body.home .entry-content {
+		margin-top: 0;
+	}
+	
+	.wcb_widget_sponsors .sponsor-level.admin a.sponsor-logo, .wcb_widget_sponsors .sponsor-level.editor a.sponsor-logo, .wcb_widget_sponsors .sponsor-level.author a.sponsor-logo, .wcb_widget_sponsors .sponsor-level.contributor a.sponsor-logo, .wcb_widget_sponsors .sponsor-level.subscriber a.sponsor-logo, .wcb_widget_sponsors .sponsor-level.sponsor-in-kind a.sponsor-logo {
+		max-width: 150px !important;
+		max-height: 55px !important;
+	}
+}
+
+/* Custom CSS from 2018.belfast.wordcamp.org */
+/* Remote CSS from https://api.github.com/repos/wcus/2017-css/contents/style.css */
+/* Clear */
+.clear {
+	display: block;
+	clear: both;
+	float: none;
+}
+
+.custom-logo-link img {
+	display: inline-block;
+	max-height: 125px !important;
+	width: auto;
+	opacity: .8;
+}
+
+@media screen and (min-width: 900px) {
+	.has-header-image.twentyseventeen-front-page .site-branding {
+		top: 30%;
+	}
+}
+
+.panel-images {
+	display: none;
+}
+
+.site-description {
+	font-size: 22px;
+	font-style: normal;
+}
+
+body:not(.title-tagline-hidden) .site-branding-text {
+	display: block;
+	text-align: center;
+}
+
+.site-title {
+	display: none;
+}
+
+.site-branding a {
+	transition: opacity .2s;
+	text-align: center;
+	margin: 0 auto;
+	width: 300px;
+	display: block;
+}
+
+/* Typography */
+body {
+	font-family: 'Nunito', sans-serif;
+	color: #111;
+}
+
+h1, h2, .page .panel-content .recent-posts .entry-title {
+	color: #000;
+	font-family: 'BioRhyme';
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: .05em;
+}
+
+h2 {
+	color: #647373;
+	font-weight: 400;
+}
+
+h3 {
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: .05em;
+}
+
+@media screen and (min-width: 48em) {
+	.single-post .entry-title, .page .entry-title {
+		font-size: 26px;
+		font-size: 2.5rem;
+		font-weight: 300;
+	}
+}
+
+a {
+	color: #8d3d46;
+}
+
+blockquote {
+	font-family: 'courier-prime', Courier, monospace;
+	font-style: italic;
+	border-color: #000;
+	border-left: 3px solid #000;
+	padding-left: 1em;
+	margin-bottom: 2em;
+	color: #000;
+}
+
+blockquote p:last-child {
+	margin-bottom: 0;
+}
+
+.wp-caption, .gallery-caption {
+	color: #000;
+	font-size: 14px;
+	font-size: .9rem;
+	font-style: italic;
+	font-family: 'courier-prime', Courier, monospace;
+}
+
+.wp-caption .wp-caption-text {
+	border-bottom: 3px solid #000;
+	padding-bottom: .8em;
+}
+
+/* Header area */
+/*.site-branding {
+  background-color: #EAE4E3;
+}
+.home .site-branding {
+	background-color: transparent;
+}
+.home .site-branding .wrap {
+	display: none;
+} */
+@media screen and ( max-width: 900px ) {
+	.home .site-branding .wrap {
+		display: block;
+		background: rgba(255,255,255,.70);
+		padding-top: 2vh;
+		padding-bottom: 2vh;
+	}
+}
+
+@media screen and ( max-width: 480px ) {
+	.home .site-branding .wrap {
+		text-align: center;
+		background: transparent;
+	}
+	
+	body.home.has-header-image .site-title a,
+										body.home.has-header-image .site-description {
+		color: #fff;
+	}
+	
+	.home .custom-logo-link img {
+		max-height: 200px;
+		filter: invert(100%);
+		padding-top: 2vh;
+		padding-bottom: 2vh;
+	}
+}
+
+.site-title, .site-title a {
+	color: #000;
+	font-family: 'BioRhyme';
+	font-weight: 300;
+}
+
+.site-description {
+	color: #000;
+	font-family: 'courier-prime', Courier, monospace;
+	font-style: italic;
+}
+
+@media screen and (min-width: 900px) {
+	.home .site-branding {
+		background-color: transparent;
+	}
+}
+
+/* Main navigation */
+.navigation-top {
+	border-bottom: 3px solid #000;
+	border-top: 3px solid #000;
+}
+
+.navigation-top a {
+	text-transform: uppercase;
+	letter-spacing: .1em;
+}
+
+.navigation-top .current-menu-item > a, .navigation-top .current_page_item > a {
+	color: #000;
+	background-color: #c8ebeb;
+}
+
+.main-navigation a:hover {
+	color: #8D3D46;
+}
+
+.social-navigation a {
+	background-color: #000;
+}
+
+.site-footer {
+	border-top: 3px solid #000;
+	background-color: #C8EBEB;
+}
+
+/* Archives */
+.blog .page-header {
+	padding-bottom: 2em;
+	display: none;
+}
+
+@media screen and (min-width: 48em) {
+	.blog:not(.has-sidebar) #primary article, .archive:not(.page-one-column):not(.has-sidebar) #primary article, .search:not(.has-sidebar) #primary article, .error404:not(.has-sidebar) #primary .page-content, .error404.has-sidebar #primary .page-content, body.page-two-column:not(.archive) #primary .entry-content, body.page-two-column #comments {
+		float: none;
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 48em) {
+	.page.page-one-column .entry-header, .twentyseventeen-front-page.page-one-column .entry-header, .archive.page-one-column:not(.has-sidebar) .page-header {
+		margin-bottom: 1.5em;
+	}
+}
+
+/* Buttons */
+button, a.button, input[type="button"], input[type="submit"] {
+	background-color: transparent;
+	border: 3px solid #222;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	color: #000;
+	font-size: 1rem;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-family: Nunito;
+	padding: .75em 2em;
+	font-weight: 600;
+}
+
+button:hover, a.button:focus, a.button:hover, .button:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="submit"]:hover, input[type="submit"]:focus {
+	background: #E1D7D6;
+}
+
+/* Comment area */
+.comment-author {
+	font-family: 'courier-prime', Courier, monospace;
+	font-style: italic;
+}
+
+.comment-author .avatar {
+	border-radius: 50%;
+}
+
+.bypostauthor > .comment-body > .comment-meta > .comment-author .avatar {
+	border: 3px solid #333;
+	padding: 3px;
+	background-color: #C8EBEB;
+}
+
+/* List Styles */
+ul, ol, li > ul, li > ol {
+	margin-bottom: 1.5em;
+	margin-left: 1.5em;
+}
+
+/* Style for an ol with h3 headers in each li (like code of conduct) */
+ol.headed-ol {
+	list-style-type: none;
+	margin-left: 0;
+}
+
+ol.headed-ol > li {
+	counter-increment: step-counter;
+}
+
+.headed-ol > li > h3::before {
+	content: counter(step-counter);
+	margin-right: 15px;
+	font-family: 'BioRhyme';
+	font-size: 2em;
+	font-weight: 300;
+	color: #8D3D46;
+}
+
+/* Org shortcode */
+/* Hide tix remaining */
+td.tix-column-remaining, th.tix-column-remaining {
+	display: none;
+}
+
+/** Schedule **/
+.page.page-one-column.page-slug-schedule #primary {
+	max-width: 100%;
+}
+
+.wcpt-schedule :not(.global-session) tr > td:first-of-type,
+.sunday-schedule .wcpt-schedule tr > td.wcpt-time {
+	width: 100px;
+}
+
+.wcpt-schedule :not(.global-session) tr > td:nth-of-type(n + 2) {
+	width: calc(100%/3);
+}
+
+.sunday-schedule .wcpt-schedule tr > td:not(.wcpt-time) {
+	width: auto;
+}
+
+.wcpt-schedule .global-session td[colspan="3"] {
+	text-align: center;
+}
+
+.wcpt-schedule thead th {
+	background: #A74154;
+	color: #ffffff;
+	border-bottom: none;
+	font-weight: 300;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.wcpt-schedule tr, .wcpt-schedule td, .wcpt-schedule th {
+	text-align: center;
+	vertical-align: top;
+}
+
+.wcpt-track-description, .wcpt-session-speakers {
+	display: block;
+}
+
+.wcpt-schedule tr {
+	background: #f0f0f0;
+}
+
+.wcpt-schedule tr.global-session {
+	background: #C0EBEB;
+}
+
+.wcpt-schedule tr.global-session td {
+	padding: 20px 0 !important;
+}
+
+.wcpt-schedule tr td {
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+.wcpt-schedule .wcpt-session-speakers:before {
+	content: '- ';
+}
+
+.wcpt-schedule .wcpt-session-speakers a {
+	color: rgb(15,15,15);
+	font-size: 14px;
+	font-style: italic;
+}
+
+.wcpt-schedule .wcpt-session-speakers a:hover {
+	-webkit-box-shadow: inset 0 0 0 rgba(0,0,0,0), 0 3px 0 rgba(15,15,15,1);
+	box-shadow: inset 0 0 0 rgba(0,0,0,0), 0 3px 0 rgba(15,15,15,1);
+}
+
+@media (min-width: 701px) {
+	.wcpt-schedule tr:not(.global-session) > td.wcpt-time {
+		border-right: 5px solid white;
+	}
+	
+	.wcpt-schedule thead th:not(:last-of-type) {
+		border-style: solid;
+		border-width: 0 4px 0 0;
+	}
+	
+	.wcpt-schedule tr {
+		border-bottom: 2px solid #ffffff;
+		border-top: 2px solid #ffffff;
+	}
+	
+	.wcpt-schedule tr.global-session {
+		border-bottom: 4px solid #ffffff;
+		border-top: 4px solid #ffffff;
+	}
+	
+	/** Hides lines between cells on long sessions */
+	.friday-schedule .wcpt-schedule .wcpt-time-115pm .wcpt-time,
+										.friday-schedule .wcpt-schedule .wcpt-time-115pm .wcb-track-fiddle,
+										.friday-schedule .wcpt-schedule .wcpt-time-115pm .wcb-track-guitar,
+										.friday-schedule .wcpt-schedule .wcpt-time-115pm .wcpt-session-empty,
+										.friday-schedule .wcpt-schedule .wcpt-time-130pm .wcpt-time,
+										.friday-schedule .wcpt-schedule .wcpt-time-130pm .wcpt-session-empty,
+										.friday-schedule .wcpt-schedule .wcpt-time-215pm .wcpt-time,
+										.friday-schedule .wcpt-schedule .wcpt-time-215pm .wcb-track-fiddle,
+										.friday-schedule .wcpt-schedule .wcpt-time-215pm .wcb-track-guitar,
+										.friday-schedule .wcpt-schedule .wcpt-time-230pm .wcpt-time,
+										.friday-schedule .wcpt-schedule .wcpt-time-230pm .wcpt-session-empty,
+										.friday-schedule .wcpt-schedule .wcpt-time-330pm .wcpt-time,
+										.friday-schedule .wcpt-schedule .wcpt-time-330pm .wcb-track-fiddle,
+										.friday-schedule .wcpt-schedule .wcpt-time-330pm .wcb-track-guitar,
+										.friday-schedule .wcpt-schedule .wcpt-time-345pm .wcpt-time,
+										.friday-schedule .wcpt-schedule .wcpt-time-345pm .wcpt-session-empty,
+										.friday-schedule .wcpt-schedule .wcpt-time-430pm .wcpt-time,
+										.friday-schedule .wcpt-schedule .wcpt-time-430pm .wcb-track-fiddle,
+										.friday-schedule .wcpt-schedule .wcpt-time-430pm .wcb-track-guitar,
+										.friday-schedule .wcpt-schedule .wcpt-time-445pm .wcpt-time,
+										.friday-schedule .wcpt-schedule .wcpt-time-445pm .wcb-track-fiddle,
+										.friday-schedule .wcpt-schedule .wcpt-time-445pm .wcb-track-guitar,
+										.friday-schedule .wcpt-schedule .wcpt-time-445pm .wcpt-session-empty,
+										.saturday-schedule .wcpt-schedule .wcpt-time-115pm .wcpt-time,
+										.saturday-schedule .wcpt-schedule .wcpt-time-115pm .wcb-track-fiddle,
+										.saturday-schedule .wcpt-schedule .wcpt-time-115pm .wcb-track-guitar,
+										.saturday-schedule .wcpt-schedule .wcpt-time-115pm .wcpt-session-empty,
+										.saturday-schedule .wcpt-schedule .wcpt-time-130pm .wcpt-time,
+										.saturday-schedule .wcpt-schedule .wcpt-time-130pm .wcpt-session-empty,
+										.saturday-schedule .wcpt-schedule .wcpt-time-215pm .wcpt-time,
+										.saturday-schedule .wcpt-schedule .wcpt-time-215pm .wcb-track-fiddle,
+										.saturday-schedule .wcpt-schedule .wcpt-time-215pm .wcpt-session-empty,
+										.saturday-schedule .wcpt-schedule .wcpt-time-215pm .wcb-track-guitar,
+										.saturday-schedule .wcpt-schedule .wcpt-time-230pm .wcpt-time,
+										.saturday-schedule .wcpt-schedule .wcpt-time-230pm .wcpt-session-empty {
+		position: relative;
+	}
+	
+	.friday-schedule .wcpt-schedule .wcpt-time-115pm .wcpt-time:after,
+										.friday-schedule .wcpt-schedule .wcpt-time-115pm .wcpt-session-empty:after,
+										.friday-schedule .wcpt-schedule .wcpt-time-115pm .wcb-track-fiddle:after,
+										.friday-schedule .wcpt-schedule .wcpt-time-115pm .wcb-track-guitar:after,
+										.friday-schedule .wcpt-schedule .wcpt-time-130pm .wcpt-time:after,
+										.friday-schedule .wcpt-schedule .wcpt-time-130pm .wcpt-session-empty:after,
+										.friday-schedule .wcpt-schedule .wcpt-time-215pm .wcpt-time:after,
+										.friday-schedule .wcpt-schedule .wcpt-time-215pm .wcb-track-fiddle:after,
+										.friday-schedule .wcpt-schedule .wcpt-time-215pm .wcb-track-guitar:after,
+										.friday-schedule .wcpt-schedule .wcpt-time-230pm .wcpt-time:after,
+										.friday-schedule .wcpt-schedule .wcpt-time-230pm .wcpt-session-empty:after,
+										.friday-schedule .wcpt-schedule .wcpt-time-330pm .wcpt-time:after,
+										.friday-schedule .wcpt-schedule .wcpt-time-330pm .wcb-track-fiddle:after,
+										.friday-schedule .wcpt-schedule .wcpt-time-330pm .wcb-track-guitar:after,
+										.friday-schedule .wcpt-schedule .wcpt-time-345pm .wcpt-time:after,
+										.friday-schedule .wcpt-schedule .wcpt-time-345pm .wcpt-session-empty:after,
+										.friday-schedule .wcpt-schedule .wcpt-time-430pm .wcpt-time:after,
+										.friday-schedule .wcpt-schedule .wcpt-time-430pm .wcb-track-fiddle:after,
+										.friday-schedule .wcpt-schedule .wcpt-time-430pm .wcb-track-guitar:after,
+										.friday-schedule .wcpt-schedule .wcpt-time-445pm .wcpt-time:after,
+										.friday-schedule .wcpt-schedule .wcpt-time-445pm .wcb-track-fiddle:after,
+										.friday-schedule .wcpt-schedule .wcpt-time-445pm .wcb-track-guitar:after,
+										.friday-schedule .wcpt-schedule .wcpt-time-445pm .wcpt-session-empty:after,
+										.saturday-schedule .wcpt-schedule .wcpt-time-115pm .wcpt-time:after,
+										.saturday-schedule .wcpt-schedule .wcpt-time-115pm .wcpt-session-empty:after,
+										.saturday-schedule .wcpt-schedule .wcpt-time-115pm .wcb-track-fiddle:after,
+										.saturday-schedule .wcpt-schedule .wcpt-time-115pm .wcb-track-guitar:after,
+										.saturday-schedule .wcpt-schedule .wcpt-time-130pm .wcpt-time:after,
+										.saturday-schedule .wcpt-schedule .wcpt-time-130pm .wcpt-session-empty:after,
+										.saturday-schedule .wcpt-schedule .wcpt-time-215pm .wcpt-time:after,
+										.saturday-schedule .wcpt-schedule .wcpt-time-215pm .wcpt-session-empty:after,
+										.saturday-schedule .wcpt-schedule .wcpt-time-215pm .wcb-track-fiddle:after,
+										.saturday-schedule .wcpt-schedule .wcpt-time-215pm .wcb-track-guitar:after,
+										.saturday-schedule .wcpt-schedule .wcpt-time-230pm .wcpt-time:after,
+										.saturday-schedule .wcpt-schedule .wcpt-time-230pm .wcpt-session-empty:after {
+		content: " ";
+		height: 2px;
+		background: #f0f0f0;
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: -2px;
+	}
+	
+	.friday-schedule .wcpt-schedule tr.wcpt-time-130pm:not(.global-session) .wcpt-time,
+										.friday-schedule .wcpt-schedule tr.wcpt-time-145pm:not(.global-session) .wcpt-time,
+										.friday-schedule .wcpt-schedule tr.wcpt-time-230pm:not(.global-session) .wcpt-time,
+										.friday-schedule .wcpt-schedule tr.wcpt-time-245pm:not(.global-session) .wcpt-time,
+										.friday-schedule .wcpt-schedule tr.wcpt-time-345pm:not(.global-session) .wcpt-time,
+										.friday-schedule .wcpt-schedule tr.wcpt-time-445pm:not(.global-session) .wcpt-time,
+										.friday-schedule .wcpt-schedule tr.wcpt-time-400pm:not(.global-session) .wcpt-time,
+										.friday-schedule .wcpt-schedule tr.wcpt-time-500pm:not(.global-session) .wcpt-time,
+										.friday-schedule .wcpt-schedule tr.wcpt-time-515pm:not(.global-session) .wcpt-time,
+										.saturday-schedule .wcpt-schedule tr.wcpt-time-130pm:not(.global-session) .wcpt-time,
+										.saturday-schedule .wcpt-schedule tr.wcpt-time-145pm:not(.global-session) .wcpt-time,
+										.saturday-schedule .wcpt-schedule tr.wcpt-time-230pm:not(.global-session) .wcpt-time,
+										.saturday-schedule .wcpt-schedule tr.wcpt-time-245pm:not(.global-session) .wcpt-time {
+		color: #f0f0f0;
+	}
+}
+
+@media (max-width: 700px) {
+	.wcpt-schedule tr.global-session {
+		background: rgba(192,235,235,0.4);
+	}
+	
+	.wcpt-schedule tr {
+		border: 1px solid #A74154;
+		border-width: 6px 1px 0;
+		border-right-color: #333333;
+		border-left-color: #333333;
+		margin-bottom: 0;
+	}
+	
+	.wcpt-schedule tr:last-child {
+		border-bottom-width: 1px;
+		border-bottom-color: #333333;
+	}
+	
+	.wcpt-schedule .wcpt-session-empty {
+		padding: 1px;
+	}
+	
+	tr:not(:last-child) .wcpt-session-type-session:last-child {
+		margin-bottom: 0;
+	}
+	
+	.wcpt-schedule :not(.global-session) tr > td:first-of-type {
+		width: 100%;
+	}
+	
+	.wcpt-schedule :not(.global-session) tr > td:nth-of-type(n + 2) {
+		width: 100%;
+	}
+	
+	.wcpt-schedule :not(.global-session) tr > td.wcpt-time {
+		padding-top: 10px;
+	}
+	
+	span.wcpt-session-speakers {
+		padding-left: 0;
+	}
+	
+	span.wcpt-session-speakers:before {
+		display: none;
+	}
+	
+	.wcpt-schedule td a {
+		box-shadow: none;
+		padding-bottom: 0;
+	}
+}
+
+/** Sponsors Page **/
+.page.page-one-column.page-slug-sponsors #primary {
+	max-width: 100%;
+}
+
+.wcorg-sponsors > div {
+	border: 1px solid #A44155;
+	margin-top: 75px;
+}
+
+.wcorg-sponsors h2 {
+	background: #A44155;
+	color: white;
+	margin: 0;
+	padding: 20px;
+	text-transform: uppercase;
+}
+
+.wcorg-sponsors h3 {
+	color: #A44155;
+	text-align: center;
+}
+
+.wcorg-sponsor {
+	border-top: 1px solid #eaf0f2;
+	margin-top: 30px;
+	padding: 30px 20px 20px;
+}
+
+.wcorg-sponsor:before,
+.wcorg-sponsor:after {
+	content: "";
+	display: table;
+}
+
+.wcorg-sponsor:after {
+	clear: both;
+}
+
+.wcorg-sponsor {
+	zoom: 1;
+}
+
+.wcorg-sponsor:first-of-type {
+	border-top: none;
+	margin-top: 0;
+}
+
+.wcorg-sponsor .wcorg-sponsor-description .wp-post-image {
+	display: block;
+}
+
+.wcorg-sponsor .wcorg-sponsor-description > :nth-child(2) {
+	margin-top: 0;
+}
+
+.wcorg-sponsor .wcorg-sponsor-description > :last-child {
+	margin-bottom: 0;
+}
+
+@media screen and (min-width: 769px) {
+	.wcorg-sponsors h3 {
+		padding-left: calc(25% + 25px);
+		text-align: left;
+	}
+	
+	.wcorg-sponsor .wcorg-sponsor-description .wp-post-image {
+		margin-top: -47px;
+	}
+	
+	.wcorg-sponsor .wcorg-sponsor-description > :first-child {
+		float: left;
+		max-width: 25%;
+	}
+	
+	.wcorg-sponsor .wcorg-sponsor-description > :first-child:hover {
+		background: none;
+	}
+	
+	.wcorg-sponsor .wcorg-sponsor-description > :not(:first-child):not(.wp-post-image) {
+		float: right;
+		width: calc(75% - 25px);
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.wcorg-sponsor .wcorg-sponsor-description > :first-child {
+		float: none;
+		margin: 0 auto 20px;
+		max-height: 125px;
+		max-width: 60%;
+		width: auto;
+	}
+	
+	.wcorg-sponsor .wcorg-sponsor-description > :not(:first-child):not(.wp-post-image) {
+		float: none;
+		width: 100%;
+	}
+}
+
+/** END Sponsors page **/
+/** 2018 Fix for ticket form label brs **/
+.tix-right br {
+	display: none;
+}
+
+/* Custom CSS from 2018.us.wordcamp.org */
+/* Remote CSS from https://api.github.com/repos/wcus/2017-css/contents/style.css */
+/* Clear */
+.clear {
+	display: block;
+	clear: both;
+	float: none;
+}
+
+/* Typography */
+body {
+	font-family: 'Nunito', sans-serif;
+	color: #111;
+}
+
+h1, h2, .page .panel-content .recent-posts .entry-title {
+	color: #000;
+	font-family: 'BioRhyme';
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: .05em;
+}
+
+h2 {
+	color: #647373;
+	font-weight: 400;
+}
+
+h3 {
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: .05em;
+}
+
+@media screen and (min-width: 48em) {
+	.single-post .entry-title, .page .entry-title {
+		font-size: 26px;
+		font-size: 2.5rem;
+		font-weight: 300;
+	}
+}
+
+a {
+	color: #8d3d46;
+}
+
+blockquote {
+	font-family: 'courier-prime', Courier, monospace;
+	font-style: italic;
+	border-color: #000;
+	border-left: 3px solid #000;
+	padding-left: 1em;
+	margin-bottom: 2em;
+	color: #000;
+}
+
+blockquote p:last-child {
+	margin-bottom: 0;
+}
+
+.wp-caption, .gallery-caption {
+	color: #000;
+	font-size: 14px;
+	font-size: .9rem;
+	font-style: italic;
+	font-family: 'courier-prime', Courier, monospace;
+}
+
+.wp-caption .wp-caption-text {
+	border-bottom: 3px solid #000;
+	padding-bottom: .8em;
+}
+
+/* Header area */
+/*.site-branding {
+  background-color: #EAE4E3;
+}
+.home .site-branding {
+	background-color: transparent;
+}
+.home .site-branding .wrap {
+	display: none;
+} */
+@media screen and ( max-width: 900px ) {
+	.home .site-branding .wrap {
+		display: block;
+		background: rgba(255,255,255,.70);
+		padding-top: 2vh;
+		padding-bottom: 2vh;
+	}
+}
+
+@media screen and ( max-width: 480px ) {
+	.home .site-branding .wrap {
+		text-align: center;
+		background: transparent;
+	}
+	
+	body.home.has-header-image .site-title a,
+										body.home.has-header-image .site-description {
+		color: #fff;
+	}
+	
+	.home .custom-logo-link img {
+		max-height: 200px;
+	/** filter: invert(100%); **/
+		padding-top: 2vh;
+		padding-bottom: 2vh;
+	}
+}
+
+.site-title, .site-title a {
+	color: #000;
+	font-family: 'BioRhyme';
+	font-weight: 300;
+}
+
+.site-description {
+	color: #000;
+	font-family: 'courier-prime', Courier, monospace;
+	font-style: italic;
+}
+
+@media screen and (min-width: 900px) {
+	.home .site-branding {
+		background-color: transparent;
+	}
+}
+
+/* Main navigation */
+.navigation-top {
+	border-bottom: 3px solid #000;
+	border-top: 3px solid #000;
+}
+
+.navigation-top a {
+	text-transform: uppercase;
+	letter-spacing: .1em;
+}
+
+.navigation-top .current-menu-item > a, .navigation-top .current_page_item > a {
+	color: #000;
+	background-color: #c8ebeb;
+}
+
+.main-navigation a:hover {
+	color: #8D3D46;
+}
+
+.social-navigation a {
+	background-color: #000;
+}
+
+.site-footer {
+	border-top: 3px solid #000;
+	background-color: #C8EBEB;
+}
+
+/* Archives */
+.blog .page-header {
+	padding-bottom: 2em;
+	display: none;
+}
+
+@media screen and (min-width: 48em) {
+	.blog:not(.has-sidebar) #primary article, .archive:not(.page-one-column):not(.has-sidebar) #primary article, .search:not(.has-sidebar) #primary article, .error404:not(.has-sidebar) #primary .page-content, .error404.has-sidebar #primary .page-content, body.page-two-column:not(.archive) #primary .entry-content, body.page-two-column #comments {
+		float: none;
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 48em) {
+	.page.page-one-column .entry-header, .twentyseventeen-front-page.page-one-column .entry-header, .archive.page-one-column:not(.has-sidebar) .page-header {
+		margin-bottom: 1.5em;
+	}
+}
+
+/* Buttons */
+button, a.button, input[type="button"], input[type="submit"] {
+	background-color: transparent;
+	border: 3px solid #222;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	color: #000;
+	font-size: 1rem;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-family: Nunito;
+	padding: .75em 2em;
+	font-weight: 600;
+}
+
+button:hover, a.button:focus, a.button:hover, .button:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="submit"]:hover, input[type="submit"]:focus {
+	background: #E1D7D6;
+}
+
+/* Comment area */
+.comment-author {
+	font-family: 'courier-prime', Courier, monospace;
+	font-style: italic;
+}
+
+.comment-author .avatar {
+	border-radius: 50%;
+}
+
+.bypostauthor > .comment-body > .comment-meta > .comment-author .avatar {
+	border: 3px solid #333;
+	padding: 3px;
+	background-color: #C8EBEB;
+}
+
+/* List Styles */
+ul, ol, li > ul, li > ol {
+	margin-bottom: 1.5em;
+	margin-left: 1.5em;
+}
+
+/* Style for an ol with h3 headers in each li (like code of conduct) */
+ol.headed-ol {
+	list-style-type: none;
+	margin-left: 0;
+}
+
+ol.headed-ol > li {
+	counter-increment: step-counter;
+}
+
+.headed-ol > li > h3::before {
+	content: counter(step-counter);
+	margin-right: 15px;
+	font-family: 'BioRhyme';
+	font-size: 2em;
+	font-weight: 300;
+	color: #8D3D46;
+}
+
+/* Org shortcode */
+/* Hide tix remaining */
+td.tix-column-remaining, th.tix-column-remaining {
+	display: none;
+}
+
+/** Schedule **/
+.page.page-one-column.page-slug-schedule #primary {
+	max-width: 100%;
+}
+
+.wcpt-schedule :not(.global-session) tr > td:first-of-type,
+.sunday-schedule .wcpt-schedule tr > td.wcpt-time {
+	width: 100px;
+}
+
+.wcpt-schedule :not(.global-session) tr > td:nth-of-type(n + 2) {
+	width: calc(100%/3);
+}
+
+.sunday-schedule .wcpt-schedule tr > td:not(.wcpt-time) {
+	width: auto;
+}
+
+.wcpt-schedule .global-session td[colspan="3"] {
+	text-align: center;
+}
+
+.wcpt-schedule thead th {
+	background: #A74154;
+	color: #ffffff;
+	border-bottom: none;
+	font-weight: 300;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.wcpt-schedule tr, .wcpt-schedule td, .wcpt-schedule th {
+	text-align: center;
+	vertical-align: top;
+}
+
+.wcpt-track-description, .wcpt-session-speakers {
+	display: block;
+}
+
+.wcpt-schedule tr {
+	background: #f0f0f0;
+}
+
+.wcpt-schedule tr.global-session {
+	background: #C0EBEB;
+}
+
+.wcpt-schedule tr.global-session td {
+	padding: 20px 0 !important;
+}
+
+.wcpt-schedule tr td {
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+.wcpt-schedule .wcpt-session-speakers:before {
+	content: '- ';
+}
+
+.wcpt-schedule .wcpt-session-speakers a {
+	color: rgb(15,15,15);
+	font-size: 14px;
+	font-style: italic;
+}
+
+.wcpt-schedule .wcpt-session-speakers a:hover {
+	-webkit-box-shadow: inset 0 0 0 rgba(0,0,0,0), 0 3px 0 rgba(15,15,15,1);
+	box-shadow: inset 0 0 0 rgba(0,0,0,0), 0 3px 0 rgba(15,15,15,1);
+}
+
+@media (min-width: 701px) {
+	.wcpt-schedule tr:not(.global-session) > td.wcpt-time {
+		border-right: 5px solid white;
+	}
+	
+	.wcpt-schedule thead th:not(:last-of-type) {
+		border-style: solid;
+		border-width: 0 4px 0 0;
+	}
+	
+	.wcpt-schedule tr {
+		border-bottom: 2px solid #ffffff;
+		border-top: 2px solid #ffffff;
+	}
+	
+	.wcpt-schedule tr.global-session {
+		border-bottom: 4px solid #ffffff;
+		border-top: 4px solid #ffffff;
+	}
+	
+	/** Hides lines between cells on long sessions */
+	.friday-schedule .wcpt-schedule .wcpt-time-115pm .wcpt-time,
+										.friday-schedule .wcpt-schedule .wcpt-time-115pm .wcb-track-fiddle,
+										.friday-schedule .wcpt-schedule .wcpt-time-115pm .wcb-track-guitar,
+										.friday-schedule .wcpt-schedule .wcpt-time-115pm .wcpt-session-empty,
+										.friday-schedule .wcpt-schedule .wcpt-time-130pm .wcpt-time,
+										.friday-schedule .wcpt-schedule .wcpt-time-130pm .wcpt-session-empty,
+										.friday-schedule .wcpt-schedule .wcpt-time-215pm .wcpt-time,
+										.friday-schedule .wcpt-schedule .wcpt-time-215pm .wcb-track-fiddle,
+										.friday-schedule .wcpt-schedule .wcpt-time-215pm .wcb-track-guitar,
+										.friday-schedule .wcpt-schedule .wcpt-time-230pm .wcpt-time,
+										.friday-schedule .wcpt-schedule .wcpt-time-230pm .wcpt-session-empty,
+										.friday-schedule .wcpt-schedule .wcpt-time-330pm .wcpt-time,
+										.friday-schedule .wcpt-schedule .wcpt-time-330pm .wcb-track-fiddle,
+										.friday-schedule .wcpt-schedule .wcpt-time-330pm .wcb-track-guitar,
+										.friday-schedule .wcpt-schedule .wcpt-time-345pm .wcpt-time,
+										.friday-schedule .wcpt-schedule .wcpt-time-345pm .wcpt-session-empty,
+										.friday-schedule .wcpt-schedule .wcpt-time-430pm .wcpt-time,
+										.friday-schedule .wcpt-schedule .wcpt-time-430pm .wcb-track-fiddle,
+										.friday-schedule .wcpt-schedule .wcpt-time-430pm .wcb-track-guitar,
+										.friday-schedule .wcpt-schedule .wcpt-time-445pm .wcpt-time,
+										.friday-schedule .wcpt-schedule .wcpt-time-445pm .wcb-track-fiddle,
+										.friday-schedule .wcpt-schedule .wcpt-time-445pm .wcb-track-guitar,
+										.friday-schedule .wcpt-schedule .wcpt-time-445pm .wcpt-session-empty,
+										.saturday-schedule .wcpt-schedule .wcpt-time-115pm .wcpt-time,
+										.saturday-schedule .wcpt-schedule .wcpt-time-115pm .wcb-track-fiddle,
+										.saturday-schedule .wcpt-schedule .wcpt-time-115pm .wcb-track-guitar,
+										.saturday-schedule .wcpt-schedule .wcpt-time-115pm .wcpt-session-empty,
+										.saturday-schedule .wcpt-schedule .wcpt-time-130pm .wcpt-time,
+										.saturday-schedule .wcpt-schedule .wcpt-time-130pm .wcpt-session-empty,
+										.saturday-schedule .wcpt-schedule .wcpt-time-215pm .wcpt-time,
+										.saturday-schedule .wcpt-schedule .wcpt-time-215pm .wcb-track-fiddle,
+										.saturday-schedule .wcpt-schedule .wcpt-time-215pm .wcpt-session-empty,
+										.saturday-schedule .wcpt-schedule .wcpt-time-215pm .wcb-track-guitar,
+										.saturday-schedule .wcpt-schedule .wcpt-time-230pm .wcpt-time,
+										.saturday-schedule .wcpt-schedule .wcpt-time-230pm .wcpt-session-empty {
+		position: relative;
+	}
+	
+	.friday-schedule .wcpt-schedule .wcpt-time-115pm .wcpt-time:after,
+										.friday-schedule .wcpt-schedule .wcpt-time-115pm .wcpt-session-empty:after,
+										.friday-schedule .wcpt-schedule .wcpt-time-115pm .wcb-track-fiddle:after,
+										.friday-schedule .wcpt-schedule .wcpt-time-115pm .wcb-track-guitar:after,
+										.friday-schedule .wcpt-schedule .wcpt-time-130pm .wcpt-time:after,
+										.friday-schedule .wcpt-schedule .wcpt-time-130pm .wcpt-session-empty:after,
+										.friday-schedule .wcpt-schedule .wcpt-time-215pm .wcpt-time:after,
+										.friday-schedule .wcpt-schedule .wcpt-time-215pm .wcb-track-fiddle:after,
+										.friday-schedule .wcpt-schedule .wcpt-time-215pm .wcb-track-guitar:after,
+										.friday-schedule .wcpt-schedule .wcpt-time-230pm .wcpt-time:after,
+										.friday-schedule .wcpt-schedule .wcpt-time-230pm .wcpt-session-empty:after,
+										.friday-schedule .wcpt-schedule .wcpt-time-330pm .wcpt-time:after,
+										.friday-schedule .wcpt-schedule .wcpt-time-330pm .wcb-track-fiddle:after,
+										.friday-schedule .wcpt-schedule .wcpt-time-330pm .wcb-track-guitar:after,
+										.friday-schedule .wcpt-schedule .wcpt-time-345pm .wcpt-time:after,
+										.friday-schedule .wcpt-schedule .wcpt-time-345pm .wcpt-session-empty:after,
+										.friday-schedule .wcpt-schedule .wcpt-time-430pm .wcpt-time:after,
+										.friday-schedule .wcpt-schedule .wcpt-time-430pm .wcb-track-fiddle:after,
+										.friday-schedule .wcpt-schedule .wcpt-time-430pm .wcb-track-guitar:after,
+										.friday-schedule .wcpt-schedule .wcpt-time-445pm .wcpt-time:after,
+										.friday-schedule .wcpt-schedule .wcpt-time-445pm .wcb-track-fiddle:after,
+										.friday-schedule .wcpt-schedule .wcpt-time-445pm .wcb-track-guitar:after,
+										.friday-schedule .wcpt-schedule .wcpt-time-445pm .wcpt-session-empty:after,
+										.saturday-schedule .wcpt-schedule .wcpt-time-115pm .wcpt-time:after,
+										.saturday-schedule .wcpt-schedule .wcpt-time-115pm .wcpt-session-empty:after,
+										.saturday-schedule .wcpt-schedule .wcpt-time-115pm .wcb-track-fiddle:after,
+										.saturday-schedule .wcpt-schedule .wcpt-time-115pm .wcb-track-guitar:after,
+										.saturday-schedule .wcpt-schedule .wcpt-time-130pm .wcpt-time:after,
+										.saturday-schedule .wcpt-schedule .wcpt-time-130pm .wcpt-session-empty:after,
+										.saturday-schedule .wcpt-schedule .wcpt-time-215pm .wcpt-time:after,
+										.saturday-schedule .wcpt-schedule .wcpt-time-215pm .wcpt-session-empty:after,
+										.saturday-schedule .wcpt-schedule .wcpt-time-215pm .wcb-track-fiddle:after,
+										.saturday-schedule .wcpt-schedule .wcpt-time-215pm .wcb-track-guitar:after,
+										.saturday-schedule .wcpt-schedule .wcpt-time-230pm .wcpt-time:after,
+										.saturday-schedule .wcpt-schedule .wcpt-time-230pm .wcpt-session-empty:after {
+		content: " ";
+		height: 2px;
+		background: #f0f0f0;
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: -2px;
+	}
+	
+	.friday-schedule .wcpt-schedule tr.wcpt-time-130pm:not(.global-session) .wcpt-time,
+										.friday-schedule .wcpt-schedule tr.wcpt-time-145pm:not(.global-session) .wcpt-time,
+										.friday-schedule .wcpt-schedule tr.wcpt-time-230pm:not(.global-session) .wcpt-time,
+										.friday-schedule .wcpt-schedule tr.wcpt-time-245pm:not(.global-session) .wcpt-time,
+										.friday-schedule .wcpt-schedule tr.wcpt-time-345pm:not(.global-session) .wcpt-time,
+										.friday-schedule .wcpt-schedule tr.wcpt-time-445pm:not(.global-session) .wcpt-time,
+										.friday-schedule .wcpt-schedule tr.wcpt-time-400pm:not(.global-session) .wcpt-time,
+										.friday-schedule .wcpt-schedule tr.wcpt-time-500pm:not(.global-session) .wcpt-time,
+										.friday-schedule .wcpt-schedule tr.wcpt-time-515pm:not(.global-session) .wcpt-time,
+										.saturday-schedule .wcpt-schedule tr.wcpt-time-130pm:not(.global-session) .wcpt-time,
+										.saturday-schedule .wcpt-schedule tr.wcpt-time-145pm:not(.global-session) .wcpt-time,
+										.saturday-schedule .wcpt-schedule tr.wcpt-time-230pm:not(.global-session) .wcpt-time,
+										.saturday-schedule .wcpt-schedule tr.wcpt-time-245pm:not(.global-session) .wcpt-time {
+		color: #f0f0f0;
+	}
+}
+
+@media (max-width: 700px) {
+	.wcpt-schedule tr.global-session {
+		background: rgba(192,235,235,0.4);
+	}
+	
+	.wcpt-schedule tr {
+		border: 1px solid #A74154;
+		border-width: 6px 1px 0;
+		border-right-color: #333333;
+		border-left-color: #333333;
+		margin-bottom: 0;
+	}
+	
+	.wcpt-schedule tr:last-child {
+		border-bottom-width: 1px;
+		border-bottom-color: #333333;
+	}
+	
+	.wcpt-schedule .wcpt-session-empty {
+		padding: 1px;
+	}
+	
+	tr:not(:last-child) .wcpt-session-type-session:last-child {
+		margin-bottom: 0;
+	}
+	
+	.wcpt-schedule :not(.global-session) tr > td:first-of-type {
+		width: 100%;
+	}
+	
+	.wcpt-schedule :not(.global-session) tr > td:nth-of-type(n + 2) {
+		width: 100%;
+	}
+	
+	.wcpt-schedule :not(.global-session) tr > td.wcpt-time {
+		padding-top: 10px;
+	}
+	
+	span.wcpt-session-speakers {
+		padding-left: 0;
+	}
+	
+	span.wcpt-session-speakers:before {
+		display: none;
+	}
+	
+	.wcpt-schedule td a {
+		box-shadow: none;
+		padding-bottom: 0;
+	}
+}
+
+/** Sponsors Page **/
+.page.page-one-column.page-slug-sponsors #primary {
+	max-width: 100%;
+}
+
+.wcorg-sponsors > div {
+	border: 1px solid #A44155;
+	margin-top: 75px;
+}
+
+.wcorg-sponsors h2 {
+	background: #A44155;
+	color: white;
+	margin: 0;
+	padding: 20px;
+	text-transform: uppercase;
+}
+
+.wcorg-sponsors h3 {
+	color: #A44155;
+	text-align: center;
+}
+
+.wcorg-sponsor {
+	border-top: 1px solid #eaf0f2;
+	margin-top: 30px;
+	padding: 30px 20px 20px;
+}
+
+.wcorg-sponsor:before,
+.wcorg-sponsor:after {
+	content: "";
+	display: table;
+}
+
+.wcorg-sponsor:after {
+	clear: both;
+}
+
+.wcorg-sponsor {
+	zoom: 1;
+}
+
+.wcorg-sponsor:first-of-type {
+	border-top: none;
+	margin-top: 0;
+}
+
+.wcorg-sponsor .wcorg-sponsor-description .wp-post-image {
+	display: block;
+}
+
+.wcorg-sponsor .wcorg-sponsor-description > :nth-child(2) {
+	margin-top: 0;
+}
+
+.wcorg-sponsor .wcorg-sponsor-description > :last-child {
+	margin-bottom: 0;
+}
+
+@media screen and (min-width: 769px) {
+	.wcorg-sponsors h3 {
+		padding-left: calc(25% + 25px);
+		text-align: left;
+	}
+	
+	.wcorg-sponsor .wcorg-sponsor-description .wp-post-image {
+		margin-top: -47px;
+	}
+	
+	.wcorg-sponsor .wcorg-sponsor-description > :first-child {
+		float: left;
+		max-width: 25%;
+	}
+	
+	.wcorg-sponsor .wcorg-sponsor-description > :first-child:hover {
+		background: none;
+	}
+	
+	.wcorg-sponsor .wcorg-sponsor-description > :not(:first-child):not(.wp-post-image) {
+		float: right;
+		width: calc(75% - 25px);
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.wcorg-sponsor .wcorg-sponsor-description > :first-child {
+		float: none;
+		margin: 0 auto 20px;
+		max-height: 125px;
+		max-width: 60%;
+		width: auto;
+	}
+	
+	.wcorg-sponsor .wcorg-sponsor-description > :not(:first-child):not(.wp-post-image) {
+		float: none;
+		width: 100%;
+	}
+}
+
+/** END Sponsors page **/
+/* Custom CSS from 2017.us.wordcamp.org */
+/* why was this added?
+**to avoid weird horizontal scroll into white nothing on certain areas -cb */
+.site {
+	max-width: 100%;
+	overflow: hidden;
+}
+
+/* why was this added? */
+#image-5 {
+	position: relative;
+	top: -220px;
+}
+
+/* Tickets page
+- remove featured image */
+.page-id-13 .single-featured-image-header img {
+	display: none;
+}
+
+/* Navigation
+- make the nav fit on one line */
+#site-navigation a {
+	font-size: .76rem !important;
+}
+
+/* Navigation
+- give minor padding to separate from borders */
+.wrap {
+	padding: .55em 1em;
+}
+
+/* Remove
+- dropshadows
+- hoverstates */
+.widget a img,
+.widget a,
+.site-footer .widget-area a,
+.widget a img,
+.widget a:hover,
+.site-footer .widget-area a:hover {
+	text-decoration: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	-webkit-transition: none;
+	transition: none;
+}
+
+/* Sponsor image */
+.single-wcb_sponsor .single-featured-image-header img {
+	padding: 2em;
+}
+
+/* Footer
+- update footer color */
+.site-footer {
+	background: #fff;
+	margin-top: 40px;
+}
+
+/* Set column full width */
+.site-footer .widget-column {
+	width: 100% !important;
+	display: block;
+	float: none;
+	clear: both;
+}
+
+/* Footer Widget 1 */
+.footer-widget-1 {
+	margin-bottom: 30px;
+	border-bottom: 3px solid #000;
+}
+
+.footer-widget-1 .widget {
+	padding-bottom: 0;
+}
+
+/* Widget image */
+.widget_media_image {
+	max-width: 300px;
+	height: auto;
+}
+
+/* Text widget - sponsor blocks
+===================== */
+.site-footer .widget_text p {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 5px 10px 30px;
+}
+
+.site-footer .widget_text p a {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.site-footer .widget_text p a:hover {
+}
+
+.site-footer .widget_text p br {
+	display: none;
+}
+
+.textwidget {
+	padding-bottom: 30px;
+}
+
+/* Sponsor widget
+===================== */
+.widget .sponsor-level {
+	padding-bottom: 30px;
+}
+
+.widget .sponsor-level h4 {
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: .05em;
+	font-size: 1.375rem;
+}
+
+.widget .sponsor-level a.sponsor-logo {
+	display: inline-block !important;
+	vertical-align: middle;
+	margin: 5px 10px 20px;
+}
+
+.widget .sponsor-level.printers-alley a {
+	max-width: 400px;
+}
+
+.widget .sponsor-level.union a {
+	max-width: 300px;
+}
+
+.widget .sponsor-level.broadway a {
+	max-width: 200px;
+}
+
+.widget .sponsor-level.jefferson a {
+	max-width: 100px;
+}
+
+.widget .sponsor-level.charlotte a {
+	max-width: 100px;
+}
+
+.widget .sponsor-level.in-kind a {
+	max-width: 100px;
+}
+
+/* Camptix styles (including Demonbreun sponsors) */
+#tix-attendees .tix-columns-3 li {
+	width: 30%;
+	margin-right: 3%;
+}
+
+#tix-attendees .tix-attendee-name {
+	font-weight: bold;
+}
+
+#tix-attendees .avatar {
+	border-radius: 50%;
+}
+
+@media screen and (max-width: 600px) {
+	#tix-attendees .tix-columns-3 li {
+		width: 100%;
+	}
+}
+
+/* Stats box for Community Bazaar
+====================== */
+.statBox {
+	background: #C8EBEB;
+	padding: 1.5em;
+}
+
+.statBox strong {
+	font-family: 'BioRhyme';
+	font-size: 1.7em;
+	color: #8d3d46;
+}
+
+/*speaker/sessions page cleanup*/
+.page-id-9 .entry-content img, .page-id-8 .entry-content img {
+	float: left;
+	margin-right: 15px;
+	border-radius: 50%;
+}
+
+/* Attendees Page */
+a.tix-field.tix-attendee-twitter, a.tix-field.tix-attendee-url {
+	box-shadow: none;
+}
+
+#tix-attendees li {
+	height: 95px;
+	padding: 0 10px;
+}
+
+#tix-attendees .avatar {
+	width: 75px;
+	height: 75px;
+}
+
+#tix-attendees .tix-field {
+	margin-left: 95px;
+}
+
+#tix-attendees .tix-attendee-name {
+	font-family: 'BioRhyme';
+	text-transform: uppercase;
+	font-size: 1em;
+	letter-spacing: .12em;
+}
+
+@media screen and (max-width: 500px) {
+	#tix-attendees .tix-attendee-name {
+		font-family: 'BioRhyme';
+		text-transform: uppercase;
+		font-size: .8em;
+		letter-spacing: .01em;
+	}
+}
+
+@media screen and (max-width: 770px) {
+	#tix-attendees .tix-columns-2 li {
+		width: 100%;
+		padding: 0;
+	}
+}
+
+/** Quick Fixes For initial launch **/
+@media screen and ( min-width: 48em ) {
+	.home.blog.has-header-image .site-branding {
+		background: -webkit-gradient(linear,left bottom,left top,from(rgba(0,0,0,.75)),to(rgba(0,0,0,0)));
+		background: -webkit-linear-gradient(bottom,rgba(0,0,0,.75),rgba(0,0,0,0));
+		background: -o-linear-gradient(bottom,rgba(0,0,0,.75),rgba(0,0,0,0));
+		background: linear-gradient(to top,rgba(0,0,0,.75),rgba(0,0,0,0));
+		padding-top: 1em;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.home .custom-logo-link img {
+		filter: none;
+	}
+}
+
+@media screen and (min-width: 481px) and (max-width: 900px) {
+	.home .site-branding .wrap {
+		background: rgba(0,0,0,.3);
+	}
+}
+
+.contact-form label.grunion-checkbox-multiple-label {
+	margin-bottom: 1.25em;
+	line-height: 20px;
+}
+
+label.grunion-checkbox-multiple-label.checkbox-multiple input {
+	margin-bottom: 0;
+}
+
+.contact-form label.radio,
+.contact-form label.checkbox-multiple {
+	font-weight: 400;
+}
+
+p.contact-submit {
+	margin-top: 2em;
+}
+
+#tix {
+	padding-top: 15px;
+}
+
+/*orgs sc*/
+.wcorg-organizers a {
+	color: #fff;
+}
+
+.wcorg-organizers > div {
+	background: #20141cd4;
+}
+
+.wcorg-organizer {
+	padding: 40px 40px 20px;
+	margin: 40px 0 140px;
+	position: relative;
+}
+
+.wcorg-organizer img {
+	display: block;
+	border: 5px solid #ccc;
+	position: absolute;
+	top: -100px;
+	border-radius: 50%;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 220px;
+}
+
+.wcorg-organizer h2 {
+	color: #fff;
+	position: absolute;
+	top: 130px;
+	text-align: center;
+	left: 10px;
+	right: 10px;
+}
+
+.wcorg-organizer-description {
+	color: #fff;
+	padding-top: 140px;
+}
+
+body.home .entry-content {
+	margin-top: 0;
+}
+
+#cas {
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+}
