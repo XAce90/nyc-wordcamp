@@ -1,7 +1,17 @@
+ //these fonts should ideally be linked to in the html, but given the workflow it's a css import for now
+ @import url('https://fonts.googleapis.com/css?family=Sansita|Source+Sans+Pro');
+
 /**
  * Basic typography style for copy text
  */
 body {
   color: $text-color;
-  font: normal 125% / 1.4 $text-font-stack;
+  font-family: $body-font-stack;
 }
+
+/**
+ * Basic typography style for header text
+ */
+ h1, h2, h3, h4, h5, h6 {
+   font-family: $header-font-stack;
+ }

@@ -3,15 +3,13 @@
 // -----------------------------------------------------------------------------
 
 
-
-
-
 /// Regular font family
-/// @type List
-$text-font-stack: 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+$body-font-stack: 'Source Sans Pro', sans-serif;
+
+/// Header font family
+$header-font-stack: 'Sansita', sans-serif;
 
 /// Code (monospace) font family
-/// @type List
 $code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace !default;
 
 
@@ -24,27 +22,7 @@ $text-color: rgb(34, 34, 34) !default;
 
 /// Main brand color
 /// @type Color
-$brand-color: rgb(229, 0, 80) !default;
-
-/// Light grey
-/// @type Color
-$light-grey: rgb(237, 237, 237) !default;
-
-/// Medium grey
-/// @type Color
-$mid-grey: rgb(153, 153, 153) !default;
-
-/// Dark grey
-/// @type Color
-$dark-grey: rgb(68, 68, 68) !default;
-
-
-
-
-
-/// Container's maximum width
-/// @type Length
-$max-width: 1180px !default;
+$brand-color: #00ADBA;
 
 
 
@@ -58,7 +36,6 @@ $breakpoints: (
   'medium': 768px,
   'large': 1024px,
 ) !default;
-
 
 
 

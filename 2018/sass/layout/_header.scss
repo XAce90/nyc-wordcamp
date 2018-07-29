@@ -1,3 +1,12 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the header of the site/application.
 // -----------------------------------------------------------------------------
+
+.navigation-top { // Main Navigation
+    background: $brand-color;
+    border-top: 3px solid $brand-color;
+    border-bottom: 3px solid $brand-color;
+}
+#top-menu {
+    @extend .flex-stretch;
+}
