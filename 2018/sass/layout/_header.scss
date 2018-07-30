@@ -2,10 +2,59 @@
 // This file contains all styles related to the header of the site/application.
 // -----------------------------------------------------------------------------
 
+/**
+ * The code below came from the original site (pre-2018), and manage the layout of the logo and tagline
+ */
+ .custom-logo-link img {
+	display: inline-block;
+	max-height: 125px !important;
+	width: auto;
+	opacity: .8;
+}
+
+.site-description {
+	font-size: 22px;
+	font-style: normal;
+}
+
+body:not(.title-tagline-hidden) .site-branding-text {
+	display: block;
+	text-align: center;
+}
+
+.site-title {
+	display: none;
+}
+
+.site-branding a {
+	transition: opacity .2s;
+	text-align: center;
+	margin: 0 auto;
+	width: 300px;
+	display: block;
+}
+
+
+
+
+/**
+ * The code below is written for the 2018 theme
+ */
 .navigation-top { // Main Navigation
     background: $brand-color;
-    border-top: 3px solid $brand-color;
-    border-bottom: 3px solid $brand-color;
+    text-transform: uppercase;
+    a {
+        color: white;
+        &:hover {
+            text-decoration: none;
+            color: white; //override the default gray
+            opacity: 0.9; //todo: design better hover effect?
+        }
+    }
+    .current_page_item a {
+        color: white; //override the default gray
+        text-decoration: underline;
+    }
 }
 #top-menu {
     @extend .flex-stretch;

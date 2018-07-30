@@ -488,9 +488,47 @@ a {
   align-items: center;
   justify-content: space-between; }
 
+/**
+ * The code below came from the original site (pre-2018), and manage the layout of the logo and tagline
+ */
+.custom-logo-link img {
+  display: inline-block;
+  max-height: 125px !important;
+  width: auto;
+  opacity: .8; }
+
+.site-description {
+  font-size: 22px;
+  font-style: normal; }
+
+body:not(.title-tagline-hidden) .site-branding-text {
+  display: block;
+  text-align: center; }
+
+.site-title {
+  display: none; }
+
+.site-branding a {
+  transition: opacity .2s;
+  text-align: center;
+  margin: 0 auto;
+  width: 300px;
+  display: block; }
+
+/**
+ * The code below is written for the 2018 theme
+ */
 .navigation-top {
   background: #00ADBA;
-  border-top: 3px solid #00ADBA;
-  border-bottom: 3px solid #00ADBA; }
+  text-transform: uppercase; }
+  .navigation-top a {
+    color: white; }
+    .navigation-top a:hover {
+      text-decoration: none;
+      color: white;
+      opacity: 0.9; }
+  .navigation-top .current_page_item a {
+    color: white;
+    text-decoration: underline; }
 
 /*# sourceMappingURL=main.css.map */
