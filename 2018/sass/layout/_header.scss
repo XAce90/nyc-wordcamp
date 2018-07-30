@@ -40,9 +40,14 @@ body:not(.title-tagline-hidden) .site-branding-text {
 /**
  * The code below is written for the 2018 theme
  */
+ // Nav Bar and Navigation
 .navigation-top { // Main Navigation
     background: $brand-color;
     text-transform: uppercase;
+    .wrap {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
     a {
         color: white;
         &:hover {
@@ -58,4 +63,10 @@ body:not(.title-tagline-hidden) .site-branding-text {
 }
 #top-menu {
     @extend .flex-stretch;
+}
+
+
+//Hero Image and Title
+.custom-header {
+    margin-bottom: -1.5em; //accomodates for reduced navigation height (.75em was formerly top/bottom padding)
 }

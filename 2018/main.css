@@ -521,6 +521,9 @@ body:not(.title-tagline-hidden) .site-branding-text {
 .navigation-top {
   background: #00ADBA;
   text-transform: uppercase; }
+  .navigation-top .wrap {
+    padding-top: 0;
+    padding-bottom: 0; }
   .navigation-top a {
     color: white; }
     .navigation-top a:hover {
@@ -530,5 +533,8 @@ body:not(.title-tagline-hidden) .site-branding-text {
   .navigation-top .current_page_item a {
     color: white;
     text-decoration: underline; }
+
+.custom-header {
+  margin-bottom: -1.5em; }
 
 /*# sourceMappingURL=main.css.map */
