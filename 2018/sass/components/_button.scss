@@ -2,12 +2,12 @@
 // This file contains all styles related to the button component.
 // -----------------------------------------------------------------------------
 button, input[type="submit"], .btn {
-    background: $accent-color;
+    background: $secondary-color;
     font-weight: normal;
     border-radius: 1.5rem;
     box-shadow: 0 2px 5px $shadow-color;
     &:hover, &:focus {
-        background: darken($accent-color, 10%);
+        background: darken($secondary-color, 10%);
     }
     &:active {
         box-shadow: 0;
