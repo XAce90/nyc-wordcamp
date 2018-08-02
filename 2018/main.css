@@ -537,4 +537,14 @@ body:not(.title-tagline-hidden) .site-branding-text {
 .custom-header {
   margin-bottom: -1.5em; }
 
+button {
+  background: #D37938;
+  font-weight: normal;
+  border-radius: 1.5rem;
+  box-shadow: 0 2px 5px gray; }
+  button:hover, button:focus {
+    background: #c66c2c; }
+  button:active {
+    box-shadow: 0; }
+
 /*# sourceMappingURL=main.css.map */
