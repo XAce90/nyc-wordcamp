@@ -557,6 +557,7 @@ button, input[type="submit"], .btn {
   font-weight: bold;
   background: black;
   border: 1px dashed white;
-  box-shadow: 0 0 0 3px black; }
+  box-shadow: 0 0 0 3px black;
+  padding: 0.25rem 1.25rem; }
 
 /*# sourceMappingURL=main.css.map */
