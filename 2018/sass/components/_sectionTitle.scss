@@ -1,0 +1,20 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the section title component.
+// The section title component is the black box with the dashed border
+// which shows up on pages like the sponsors page, to help seperate the sections
+// -----------------------------------------------------------------------------
+
+.section-title,             //default class
+.wcorg-sponsors h2          //targets the sponser level titles
+{
+    display: inline-block;
+    font-family: $body-font-stack;
+    color: $light-color;
+    text-transform: uppercase;
+    font-size: 1.75rem;
+    font-weight: bold;
+    background: $dark-color;
+    border: 1px dashed $light-color;
+    box-shadow: 0 0 0 3px $dark-color;
+    //todo: center
+}

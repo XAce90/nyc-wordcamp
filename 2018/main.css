@@ -547,4 +547,16 @@ button, input[type="submit"], .btn {
   button:active, input[type="submit"]:active, .btn:active {
     box-shadow: 0; }
 
+.section-title,
+.wcorg-sponsors h2 {
+  display: inline-block;
+  font-family: "Source Sans Pro", sans-serif;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.75rem;
+  font-weight: bold;
+  background: black;
+  border: 1px dashed white;
+  box-shadow: 0 0 0 3px black; }
+
 /*# sourceMappingURL=main.css.map */
