@@ -542,6 +542,9 @@ body:not(.title-tagline-hidden) .site-branding-text {
     padding-bottom: 0; }
   .navigation-top .menu-main-navigation-container {
     display: none; }
+    @media (min-width: 768px) {
+      .navigation-top .menu-main-navigation-container {
+        display: block; } }
   .navigation-top .main-navigation.toggled-on .menu-main-navigation-container {
     display: block; }
   @media (min-width: 768px) {

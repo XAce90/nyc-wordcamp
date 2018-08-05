@@ -49,8 +49,12 @@ body:not(.title-tagline-hidden) .site-branding-text {
         padding-bottom: 0;
     }
 
-    .menu-main-navigation-container { display: none; } //on mobile hides the menu before expansion
-    //todo: expand menu
+    .menu-main-navigation-container { 
+        display: none; //on mobile hides the menu before expansion
+        @media (min-width: $md){
+            display: block;
+        }
+     } 
     .main-navigation.toggled-on {
         .menu-main-navigation-container {
             display: block;
