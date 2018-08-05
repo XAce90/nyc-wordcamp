@@ -1,4 +1,20 @@
 // ------------------------------------------------------------------------------------
 // This file contains all styles related to the general layout of the site/application.
 // ------------------------------------------------------------------------------------
-//empty
+//
+
+/*Remove Entry-Header Section*/
+.entry-header{
+	display: none;
+}
+
+.entry-content{
+	 float: none;
+	 width: 100%;
+	 padding: 0px;
+}
+
+/*To widen content container on page*/
+.wrap{
+	padding: 0px;
+}

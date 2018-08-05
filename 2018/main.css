@@ -488,6 +488,19 @@ a {
   align-items: center;
   justify-content: space-between; }
 
+/*Remove Entry-Header Section*/
+.entry-header {
+  display: none; }
+
+.entry-content {
+  float: none;
+  width: 100%;
+  padding: 0px; }
+
+/*To widen content container on page*/
+.wrap {
+  padding: 0px; }
+
 /**
  * The code below came from the original site (pre-2018), and manage the layout of the logo and tagline
  */
