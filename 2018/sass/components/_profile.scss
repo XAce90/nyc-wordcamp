@@ -3,7 +3,8 @@
 // which can be seen on pages like the Organizers page and the Speakers page
 // -----------------------------------------------------------------------------
 
-.wcorg-speaker {
+.wcorg-speaker,
+.wcorg-organizer {
     .avatar {
         float: left;
         margin-right: 1.5rem;
@@ -20,6 +21,6 @@
     &:not(:last-child){
         padding-bottom: 1rem;
         margin-bottom: 1.5rem;
-        border-bottom: 1px dashed $text-color;
+        border-bottom: 1px solid $text-color;
     }
 }

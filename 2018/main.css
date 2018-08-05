@@ -590,7 +590,8 @@ button, input[type="submit"], .btn {
   box-shadow: 0 0 0 3px black;
   padding: 0.25rem 1.25rem; }
 
-.wcorg-speaker .avatar {
+.wcorg-speaker .avatar,
+.wcorg-organizer .avatar {
   float: left;
   margin-right: 1.5rem;
   margin-bottom: 1rem;
@@ -601,9 +602,10 @@ button, input[type="submit"], .btn {
   border-radius: 0.25rem;
   box-shadow: 0 0 0 3px black; }
 
-.wcorg-speaker:not(:last-child) {
+.wcorg-speaker:not(:last-child),
+.wcorg-organizer:not(:last-child) {
   padding-bottom: 1rem;
   margin-bottom: 1.5rem;
-  border-bottom: 1px dashed #222222; }
+  border-bottom: 1px solid #222222; }
 
 /*# sourceMappingURL=main.css.map */
