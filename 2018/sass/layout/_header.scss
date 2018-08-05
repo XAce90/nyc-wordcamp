@@ -48,21 +48,33 @@ body:not(.title-tagline-hidden) .site-branding-text {
         padding-top: 0;
         padding-bottom: 0;
     }
-    a {
-        color: white;
-        &:hover {
-            text-decoration: none;
-            color: white; //override the default gray
-            opacity: 0.9; //todo: design better hover effect?
-        }
+
+    .menu-main-navigation-container { display: none; } //on mobile hides the menu before expansion
+    //todo: expand menu
+    .main-navigation.toggled-on {
+        .menu-main-navigation-container: display: block;
     }
-    .current_page_item a {
-        color: white; //override the default gray
-        text-decoration: underline;
+
+    @media (min-width: $md){
+        a {
+            color: white;
+            &:hover {
+                text-decoration: none;
+                color: white; //override the default gray
+                opacity: 0.9; //todo: design better hover effect?
+            }
+        }    
+        .current_page_item a {
+            color: white; //override the default gray
+            text-decoration: underline;
+        }
     }
 }
 #top-menu {
-    @extend .flex-stretch;
+    @media (min-width: $md){
+        @extend .flex-stretch;
+        background: $brand-color;
+    }
 }
 
 

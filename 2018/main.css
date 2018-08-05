@@ -540,15 +540,18 @@ body:not(.title-tagline-hidden) .site-branding-text {
   .navigation-top .wrap {
     padding-top: 0;
     padding-bottom: 0; }
-  .navigation-top a {
-    color: white; }
-    .navigation-top a:hover {
-      text-decoration: none;
+  .navigation-top .menu-main-navigation-container {
+    display: none; }
+  @media (min-width: 768px) {
+    .navigation-top a {
+      color: white; }
+      .navigation-top a:hover {
+        text-decoration: none;
+        color: white;
+        opacity: 0.9; }
+    .navigation-top .current_page_item a {
       color: white;
-      opacity: 0.9; }
-  .navigation-top .current_page_item a {
-    color: white;
-    text-decoration: underline; }
+      text-decoration: underline; } }
 
 .custom-header {
   margin-bottom: -1.5em; }
