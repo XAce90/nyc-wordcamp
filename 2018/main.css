@@ -542,6 +542,8 @@ body:not(.title-tagline-hidden) .site-branding-text {
     padding-bottom: 0; }
   .navigation-top .menu-main-navigation-container {
     display: none; }
+  .navigation-top .main-navigation.toggled-on .menu-main-navigation-container {
+    display: block; }
   @media (min-width: 768px) {
     .navigation-top a {
       color: white; }
@@ -552,6 +554,12 @@ body:not(.title-tagline-hidden) .site-branding-text {
     .navigation-top .current_page_item a {
       color: white;
       text-decoration: underline; } }
+
+#top-menu {
+  background: #00ADBA; }
+  @media (max-width: 768px) {
+    #top-menu {
+      display: block; } }
 
 .custom-header {
   margin-bottom: -1.5em; }

@@ -52,7 +52,9 @@ body:not(.title-tagline-hidden) .site-branding-text {
     .menu-main-navigation-container { display: none; } //on mobile hides the menu before expansion
     //todo: expand menu
     .main-navigation.toggled-on {
-        .menu-main-navigation-container: display: block;
+        .menu-main-navigation-container {
+            display: block;
+        }
     }
 
     @media (min-width: $md){
@@ -71,9 +73,10 @@ body:not(.title-tagline-hidden) .site-branding-text {
     }
 }
 #top-menu {
-    @media (min-width: $md){
-        @extend .flex-stretch;
-        background: $brand-color;
+    background: $brand-color;
+    @extend .flex-stretch;
+    @media (max-width: $md){
+        display: block;
     }
 }
 
