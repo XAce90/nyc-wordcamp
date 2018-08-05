@@ -16,7 +16,9 @@
 	 padding: 0px;
 }
 
-/*To widen content container on page*/
-.wrap{
+/*To widen content container on $large screen*/
+@media (min-width: large) {
+	.wrap{
 	padding: 0px;
+	}
 }
