@@ -590,4 +590,20 @@ button, input[type="submit"], .btn {
   box-shadow: 0 0 0 3px black;
   padding: 0.25rem 1.25rem; }
 
+.wcorg-speaker .avatar {
+  float: left;
+  margin-right: 1.5rem;
+  margin-bottom: 1rem;
+  margin-top: 0.25rem;
+  padding: 0.25rem;
+  background: black;
+  border: 1px dotted white;
+  border-radius: 0.25rem;
+  box-shadow: 0 0 0 3px black; }
+
+.wcorg-speaker:not(:last-child) {
+  padding-bottom: 1rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px dashed #222222; }
+
 /*# sourceMappingURL=main.css.map */
