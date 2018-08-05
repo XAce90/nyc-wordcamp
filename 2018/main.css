@@ -446,7 +446,8 @@ a {
 /**
  * Clear inner floats
  */
-.clearfix::after {
+.clearfix::after, .wcorg-speaker::after,
+.wcorg-organizer::after {
   clear: both;
   content: '';
   display: table; }
