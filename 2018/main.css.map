@@ -15,6 +15,7 @@
 		"sass/layout/_footer.scss",
 		"sass/components/_button.scss",
 		"sass/components/_sectionTitle.scss",
+		"sass/components/_profile.scss",
 		"sass/pages/_home.scss",
 		"sass/themes/_default.scss"
 	],

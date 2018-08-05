@@ -1,0 +1,25 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the profile component,
+// which can be seen on pages like the Organizers page and the Speakers page
+// -----------------------------------------------------------------------------
+
+.wcorg-speaker {
+    .avatar {
+        float: left;
+        margin-right: 1.5rem;
+        margin-bottom: 1rem;
+        margin-top: 0.25rem;
+
+        padding: 0.25rem;
+        background: $dark-color;
+        border: 1px dotted $light-color;
+        border-radius: 0.25rem;
+        box-shadow: 0 0 0 3px $dark-color;
+    }
+
+    &:not(:last-child){
+        padding-bottom: 1rem;
+        margin-bottom: 1.5rem;
+        border-bottom: 1px dashed $text-color;
+    }
+}
