@@ -1,9 +1,7 @@
 
 .about-content-bottom{
-	display: flex;
+	@extend .flex-stretch;
 	flex-direction: column-reverse;
-	justify-content: space-between;
-	align-items: center;
 }
 
 
@@ -11,6 +9,7 @@
 #wp-logo{
 	display: flex;
 	justify-content: center;
+	padding: 20px 0px;
 }
 }
 
