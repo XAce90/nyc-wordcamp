@@ -6,15 +6,15 @@
 	align-items: center;
 }
 
+
 @media (max-width: $lg) {
-	.about-content-bottom div{
-		display: flex;
-		justify-content: center;
-	}
+#wp-logo{
+	display: flex;
+	justify-content: center;
+}
 }
 
 @media (min-width: $lg) {
-
 .about-content-bottom{
 	flex-direction: row;
 }

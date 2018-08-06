@@ -640,7 +640,7 @@ button, input[type="submit"], .btn {
   align-items: center; }
 
 @media (max-width: 1024px) {
-  .about-content-bottom div {
+  #wp-logo {
     display: flex;
     justify-content: center; } }
 
