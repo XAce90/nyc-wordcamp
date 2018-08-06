@@ -576,7 +576,8 @@ footer {
   footer .social-links {
     display: flex;
     justify-content: flex-end;
-    list-style-type: none; }
+    list-style-type: none;
+    margin: 0; }
     footer .social-links li:not(:last-child) {
       margin-right: 1.5rem; }
   footer .site-footer .widget-column.footer-widget-1 {
@@ -585,6 +586,8 @@ footer {
   footer .site-footer .widget-column.footer-widget-2 {
     float: none;
     width: 100%; }
+    footer .site-footer .widget-column.footer-widget-2 > section:last-of-type {
+      padding-bottom: 0; }
 
 .site-info {
   display: none; }

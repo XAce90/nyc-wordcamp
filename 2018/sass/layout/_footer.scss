@@ -12,6 +12,7 @@ footer {
         display: flex;
         justify-content: flex-end;
         list-style-type: none;
+        margin: 0;
         li:not(:last-child) {
             margin-right: 1.5rem;
         }
@@ -25,6 +26,10 @@ footer {
     .site-footer .widget-column.footer-widget-2 {
         float: none;
         width: 100%;
+
+        > section:last-of-type {
+            padding-bottom: 0;
+        }
     }
 }
 
