@@ -501,7 +501,7 @@ a {
   padding: 0px; }
 
 /*To widen content container on $large screen*/
-@media (min-width: large) {
+@media (max-width: 1024px) {
   .wrap {
     padding: 0px; } }
 
