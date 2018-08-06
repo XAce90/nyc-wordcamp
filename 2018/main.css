@@ -575,6 +575,7 @@ footer {
     color: white !important; }
   footer .social-links {
     display: flex;
+    justify-content: flex-end;
     list-style-type: none; }
     footer .social-links li:not(:last-child) {
       margin-right: 1.5rem; }
