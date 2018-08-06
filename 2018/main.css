@@ -638,7 +638,7 @@ button, input[type="submit"], .btn {
   flex-direction: column;
   justify-content: space-between; }
 
-@media (min-width: large) {
+@media (min-width: 1024px) {
   .about-content-bottom {
     flex-direction: row; }
     .about-content-bottom p {

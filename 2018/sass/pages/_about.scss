@@ -5,7 +5,7 @@
 	justify-content: space-between;
 }
 
-@media (min-width: large) {
+@media (min-width: $lg) {
 
 .about-content-bottom{
 	flex-direction: row;
