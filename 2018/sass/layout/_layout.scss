@@ -17,7 +17,7 @@
 }
 
 /*To widen content container on $large screen*/
-@media (max-width: $lg){
+@media (min-width: $lg){
 	.wrap{
 	padding: 0px;
 	}
