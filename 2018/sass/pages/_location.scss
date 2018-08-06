@@ -3,10 +3,23 @@
 }
 
 .directions{
-	@extend .flex-stretch;
+	display: flex;
+	align-items: stretch;
+	justify-content: space-between;
 
 	ul{
 		list-style-type: none;
 		display: flex;
+		margin-bottom: 0px;
+		margin-top: 0px;
 	}
+
+	li{
+		padding: 0px 10px;
+	}
+
+	.subway .parking{
+		flex: 1 1 50%;
+	}
+
 }

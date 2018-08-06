@@ -484,7 +484,7 @@ a {
  * 1) vertically align
  * 2) horizontally stretch to fill the space
  */
-.flex-stretch, #top-menu, .about-content-bottom, .location, .directions {
+.flex-stretch, #top-menu, .about-content-bottom, .location {
   display: flex;
   align-items: center;
   justify-content: space-between; }
@@ -651,8 +651,18 @@ button, input[type="submit"], .btn {
     flex: 1 1 0;
     padding-left: 56px; } }
 
-.directions ul {
-  list-style-type: none;
-  display: flex; }
+.directions {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between; }
+  .directions ul {
+    list-style-type: none;
+    display: flex;
+    margin-bottom: 0px;
+    margin-top: 0px; }
+  .directions li {
+    padding: 0px 10px; }
+  .directions .subway .parking {
+    flex: 1 1 50%; }
 
 /*# sourceMappingURL=main.css.map */
