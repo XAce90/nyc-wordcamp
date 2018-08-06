@@ -15,4 +15,18 @@ footer {
             margin-right: 1.5rem;
         }
     }
+
+    //override the footer widget columns widths
+    .site-footer .widget-column.footer-widget-1 {
+        float: none;
+        width: 100%;
+    }
+    .site-footer .widget-column.footer-widget-2 {
+        float: none;
+        width: 100%;
+    }
+}
+
+.site-info {
+    display: none;
 }

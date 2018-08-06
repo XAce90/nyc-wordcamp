@@ -578,6 +578,15 @@ footer {
     list-style-type: none; }
     footer .social-links li:not(:last-child) {
       margin-right: 1.5rem; }
+  footer .site-footer .widget-column.footer-widget-1 {
+    float: none;
+    width: 100%; }
+  footer .site-footer .widget-column.footer-widget-2 {
+    float: none;
+    width: 100%; }
+
+.site-info {
+  display: none; }
 
 button, input[type="submit"], .btn {
   background: #D37938;
