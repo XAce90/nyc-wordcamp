@@ -633,8 +633,12 @@ button, input[type="submit"], .btn {
   margin-bottom: 1.5rem;
   border-bottom: 1px solid #222222; }
 
+.about-content-top {
+  font-size: 18px; }
+
 .about-content-bottom {
-  flex-direction: column-reverse; }
+  flex-direction: column-reverse;
+  font-size: 20px; }
 
 @media (max-width: 1024px) {
   #wp-logo {
@@ -651,18 +655,23 @@ button, input[type="submit"], .btn {
     flex: 1 1 0;
     padding-left: 56px; } }
 
+.location {
+  font-size: 20px; }
+
 .directions {
   display: flex;
   align-items: stretch;
-  justify-content: space-between; }
+  justify-content: space-between;
+  font-size: 20px; }
   .directions ul {
     list-style-type: none;
     display: flex;
     margin-bottom: 0px;
     margin-top: 0px; }
   .directions li {
-    padding: 0px 10px; }
-  .directions .subway .parking {
-    flex: 1 1 50%; }
+    padding-right: 10px; }
+
+.subway .parking {
+  flex: 1 1 50%; }
 
 /*# sourceMappingURL=main.css.map */

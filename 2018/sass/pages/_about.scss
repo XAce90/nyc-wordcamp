@@ -1,7 +1,12 @@
+.about-content-top{
+	font-size: 18px;
+}
+
 
 .about-content-bottom{
 	@extend .flex-stretch;
 	flex-direction: column-reverse;
+	font-size: 20px;
 }
 
 

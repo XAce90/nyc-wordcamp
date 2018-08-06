@@ -1,11 +1,14 @@
+
 .location{
 	@extend .flex-stretch;
+	font-size: 20px;
 }
 
 .directions{
 	display: flex;
 	align-items: stretch;
 	justify-content: space-between;
+	font-size: 20px;
 
 	ul{
 		list-style-type: none;
@@ -15,11 +18,11 @@
 	}
 
 	li{
-		padding: 0px 10px;
+		padding-right: 10px;
 	}
 
-	.subway .parking{
+}
+
+.subway .parking{
 		flex: 1 1 50%;
-	}
-
 }
