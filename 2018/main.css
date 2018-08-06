@@ -568,6 +568,17 @@ body:not(.title-tagline-hidden) .site-branding-text {
 .custom-header {
   margin-bottom: -1.5em; }
 
+footer {
+  background: #122334;
+  color: white; }
+  footer a {
+    color: white !important; }
+  footer .social-links {
+    display: flex;
+    list-style-type: none; }
+    footer .social-links li:not(:last-child) {
+      margin-right: 1.5rem; }
+
 button, input[type="submit"], .btn {
   background: #D37938;
   font-weight: normal;
