@@ -576,4 +576,18 @@ button, input[type="submit"], .btn {
   box-shadow: 0 0 0 3px black;
   padding: 0.25rem 1.25rem; }
 
+.about-content-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+@media (min-width: large) {
+  .about-content-bottom {
+    flex-direction: row; }
+    .about-content-bottom p {
+      flex: 2 1 0; }
+    .about-content-bottom div {
+      flex: 1 1 0;
+      padding-left: 56px; } }
+
 /*# sourceMappingURL=main.css.map */
