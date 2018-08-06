@@ -635,16 +635,16 @@ button, input[type="submit"], .btn {
 
 .about-content-bottom {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   justify-content: space-between; }
 
 @media (min-width: 1024px) {
   .about-content-bottom {
     flex-direction: row; }
-    .about-content-bottom p {
-      flex: 2 1 0; }
-    .about-content-bottom div {
-      flex: 1 1 0;
-      padding-left: 56px; } }
+  .about-text {
+    flex: 2 1 0; }
+  #wp-logo {
+    flex: 1 1 0;
+    padding-left: 56px; } }
 
 /*# sourceMappingURL=main.css.map */
