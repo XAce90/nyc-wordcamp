@@ -636,7 +636,13 @@ button, input[type="submit"], .btn {
 .about-content-bottom {
   display: flex;
   flex-direction: column-reverse;
-  justify-content: space-between; }
+  justify-content: space-between;
+  align-items: center; }
+
+@media (max-width: 1024px) {
+  .about-content-bottom div {
+    display: flex;
+    justify-content: center; } }
 
 @media (min-width: 1024px) {
   .about-content-bottom {

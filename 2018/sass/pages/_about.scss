@@ -3,8 +3,15 @@
 	display: flex;
 	flex-direction: column-reverse;
 	justify-content: space-between;
+	align-items: center;
 }
 
+@media (max-width: $lg) {
+	.about-content-bottom div{
+		display: flex;
+		justify-content: center;
+	}
+}
 
 @media (min-width: $lg) {
 
