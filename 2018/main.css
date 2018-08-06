@@ -484,7 +484,7 @@ a {
  * 1) vertically align
  * 2) horizontally stretch to fill the space
  */
-.flex-stretch, #top-menu, .about-content-bottom {
+.flex-stretch, #top-menu, .about-content-bottom, .location, .directions {
   display: flex;
   align-items: center;
   justify-content: space-between; }
@@ -650,5 +650,9 @@ button, input[type="submit"], .btn {
   #wp-logo {
     flex: 1 1 0;
     padding-left: 56px; } }
+
+.directions ul {
+  list-style-type: none;
+  display: flex; }
 
 /*# sourceMappingURL=main.css.map */

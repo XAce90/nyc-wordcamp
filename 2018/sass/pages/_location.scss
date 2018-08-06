@@ -1,0 +1,12 @@
+.location{
+	@extend .flex-stretch;
+}
+
+.directions{
+	@extend .flex-stretch;
+
+	ul{
+		list-style-type: none;
+		display: flex;
+	}
+}
