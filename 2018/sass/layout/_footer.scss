@@ -36,3 +36,30 @@ footer {
 .site-info {
     display: none;
 }
+
+.footer-widget-1 {
+    .widget-title {
+        color: $light-color;
+        margin-bottom: 3rem;
+        font-size: 2rem;
+        text-transform: none;
+        text-align: center;
+    }
+    form.contact-form {
+        width: 75%;
+        margin: auto;
+        p.contact-submit {
+            margin-top: 1.5rem;
+            text-align: center;
+        }
+        input:not([type="submit"]) {
+            width: 100%;
+        }
+        input[type="submit"]{
+            font-size: 1rem;
+        }
+        label {
+            color: $light-color;
+        }
+    }
+}
