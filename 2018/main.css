@@ -484,7 +484,7 @@ a {
  * 1) vertically align
  * 2) horizontally stretch to fill the space
  */
-.flex-stretch, #top-menu, .about-content-bottom, .location {
+.flex-stretch, #top-menu, .about-content-bottom {
   display: flex;
   align-items: center;
   justify-content: space-between; }
@@ -657,7 +657,8 @@ button, input[type="submit"], .btn {
   text-transform: uppercase;
   font-size: 32px;
   color: #00ADBA;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  font-weight: 600; }
 
 .about-content-top {
   font-size: 18px; }
@@ -682,6 +683,8 @@ button, input[type="submit"], .btn {
     padding-left: 56px; } }
 
 .location {
+  display: flex;
+  align-items: flex-end;
   flex-direction: column-reverse;
   font-size: 20px; }
   .location h3 {
@@ -738,5 +741,9 @@ button, input[type="submit"], .btn {
 @media (min-width: 1024px) {
   .parking {
     margin-top: 0px; } }
+
+.tickets-intro h1 {
+  text-align: center;
+  margin-top: -20px; }
 
 /*# sourceMappingURL=main.css.map */
