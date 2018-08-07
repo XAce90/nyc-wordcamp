@@ -7,14 +7,13 @@
 .directions{
 	display: flex;
 	align-items: stretch;
-	justify-content: space-between;
 	font-size: 20px;
 
 	ul{
 		list-style-type: none;
 		display: flex;
 		margin-bottom: 0px;
-		margin-top: 0px;
+		margin-top: 30px;
 	}
 
 	li{
@@ -23,6 +22,10 @@
 
 }
 
-.subway .parking{
-		flex: 1 1 50%;
+.subway{
+	flex: 1 1 50%;
+}
+
+.parking{
+	flex: 1 1 50%;
 }

@@ -1,0 +1,10 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the teal Headline component.
+// The Headline component is the teal all caps title that appears on the Location, Sponsor, and Call for Sponsors page.
+// -----------------------------------------------------------------------------
+
+.headline-teal{
+	text-transform: uppercase;
+	font-size: 32px;
+	color: $brand-color;
+}
