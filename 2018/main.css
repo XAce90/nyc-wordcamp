@@ -592,11 +592,23 @@ footer {
 .site-info {
   display: none; }
 
+.footer-widget-1 .widget-title {
+  color: white;
+  margin-bottom: 3rem;
+  font-size: 2rem;
+  text-transform: none;
+  text-align: center; }
+
 .footer-widget-1 form.contact-form {
   width: 75%;
   margin: auto; }
-  .footer-widget-1 form.contact-form input {
+  .footer-widget-1 form.contact-form p.contact-submit {
+    margin-top: 1.5rem;
+    text-align: center; }
+  .footer-widget-1 form.contact-form input:not([type="submit"]) {
     width: 100%; }
+  .footer-widget-1 form.contact-form input[type="submit"] {
+    font-size: 1rem; }
   .footer-widget-1 form.contact-form label {
     color: white; }
 
