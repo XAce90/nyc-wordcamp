@@ -592,6 +592,14 @@ footer {
 .site-info {
   display: none; }
 
+.footer-widget-1 form.contact-form {
+  width: 75%;
+  margin: auto; }
+  .footer-widget-1 form.contact-form input {
+    width: 100%; }
+  .footer-widget-1 form.contact-form label {
+    color: white; }
+
 button, input[type="submit"], .btn {
   background: #D37938;
   font-weight: normal;

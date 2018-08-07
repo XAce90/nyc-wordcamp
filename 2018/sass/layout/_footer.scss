@@ -36,3 +36,16 @@ footer {
 .site-info {
     display: none;
 }
+
+.footer-widget-1 {
+    form.contact-form {
+        width: 75%;
+        margin: auto;
+        input {
+            width: 100%;
+        }
+        label {
+            color: $light-color;
+        }
+    }
+}
