@@ -1,11 +1,55 @@
 
 .location{
 	@extend .flex-stretch;
+	flex-direction: column-reverse;
 	font-size: 20px;
+
+	h3{
+		margin: 0px;
+		padding: 0px;
+	}
+
+	h1{
+		margin: 0px;
+		padding: 0px;
+	}
 }
+
+.location-text{
+	flex: 1 1 50%;
+	margin-bottom: 50px;
+}
+
+.slideshow{
+	width: 100%;
+}
+
+#gallery-5-1-slideshow{
+	background-color: white;
+	border: white;
+}
+
+@media (min-width: $lg) {
+
+.location{
+	flex-direction: row;
+}
+
+.slideshow{
+	flex: 2 1 50%;
+}
+
+.location-text{
+	padding-right: 56px;
+}
+
+}
+
+
 
 .directions{
 	display: flex;
+	flex-direction: column;
 	align-items: stretch;
 	font-size: 20px;
 
@@ -28,8 +72,21 @@
 
 .parking{
 	flex: 1 1 50%;
+	margin-top: 40px;
 
 	ul{
 		flex-direction: column;
+	}
+}
+
+@media (max-width: $md){
+	.directions{
+		flex-direction: row;
+	}
+}
+
+@media (min-width: $lg) {
+	.parking{
+		margin-top: 0px;
 	}
 }
