@@ -685,7 +685,6 @@ button, input[type="submit"], .btn {
   flex-direction: column-reverse;
   font-size: 20px; }
   .location h3 {
-    margin: 0px;
     padding: 0px; }
   .location h1 {
     margin: 0px;
@@ -732,7 +731,7 @@ button, input[type="submit"], .btn {
   .parking ul {
     flex-direction: column; }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .directions {
     flex-direction: row; } }
 
