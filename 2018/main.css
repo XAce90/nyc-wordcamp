@@ -613,11 +613,12 @@ footer {
     color: white; }
 
 .sponsor-sidebar {
-  float: left;
-  width: 25%;
-  max-width: 250px;
   text-align: center;
   padding: 0 0.5rem; }
+  @media (min-width: 1024px) {
+    .sponsor-sidebar {
+      float: left;
+      width: 25%; } }
   .sponsor-sidebar .wcorg-sponsors h3 {
     display: none; }
   .sponsor-sidebar .wcorg-sponsors h2 {
@@ -638,15 +639,25 @@ footer {
     .sponsor-sidebar .wcorg-sponsor:last-of-type {
       margin-bottom: 4rem; }
 
-button, input[type="submit"], .btn {
+button, input[type="submit"], input[type="reset"], .btn {
   background: #D37938;
   font-weight: normal;
   border-radius: 1.5rem;
-  box-shadow: 0 2px 5px gray; }
-  button:hover, button:focus, input[type="submit"]:hover, input[type="submit"]:focus, .btn:hover, .btn:focus {
-    background: #b16127; }
-  button:active, input[type="submit"]:active, .btn:active {
-    box-shadow: 0; }
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 5px gray;
+  color: white; }
+  button:hover, button:focus, input[type="submit"]:hover, input[type="submit"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, .btn:hover, .btn:focus {
+    background: #b16127;
+    color: white;
+    text-decoration: none;
+    box-shadow: 0 2px 5px gray; }
+  button:active, input[type="submit"]:active, input[type="reset"]:active, .btn:active {
+    box-shadow: none;
+    color: white;
+    text-decoration: none; }
+
+a.btn {
+  display: inline-block; }
 
 .section-title,
 .wcorg-sponsors h2 {
@@ -686,10 +697,16 @@ button, input[type="submit"], .btn {
   margin-bottom: 10px;
   font-weight: 600; }
 
-.home-content {
-  float: left;
-  width: 70%;
-  margin-right: 3rem; }
+@media (min-width: 1024px) {
+  .home-content {
+    float: left;
+    width: 70%;
+    margin-right: 3rem; } }
+
+.home-content .opening-blurb {
+  font-family: "Sansita", sans-serif;
+  font-size: 1.25rem;
+  text-align: center; }
 
 .about-content-top {
   font-size: 18px; }

@@ -2,7 +2,15 @@
 // This file contains styles that are specific to the home page.
 // -----------------------------------------------------------------------------
 .home-content {
-    float: left;
-    width: 70%;
-    margin-right: 3rem;
+    @media (min-width: $lg){
+        float: left;
+        width: 70%;
+        margin-right: 3rem;
+    }
+
+    .opening-blurb {
+        font-family: $header-font-stack;
+        font-size: 1.25rem;
+        text-align: center;
+    }
 }

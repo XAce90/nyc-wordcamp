@@ -3,9 +3,11 @@
 // -----------------------------------------------------------------------------
 
 .sponsor-sidebar {
-    float: left;
-    width: 25%;
-    max-width: 250px;
+    @media (min-width: $lg){
+        //todo: responsiveness!
+        float: left;
+        width: 25%;
+    }
     text-align: center;
     padding: 0 0.5rem;
     .wcorg-sponsors {

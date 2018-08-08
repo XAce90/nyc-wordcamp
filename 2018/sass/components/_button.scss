@@ -1,15 +1,24 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the button component.
 // -----------------------------------------------------------------------------
-button, input[type="submit"], .btn {
+button, input[type="submit"], input[type="reset"], .btn {
     background: $secondary-color;
     font-weight: normal;
     border-radius: 1.5rem;
+    padding: 1rem 2rem;
     box-shadow: 0 2px 5px $shadow-color;
+    color: $light-color;
     &:hover, &:focus {
         background: darken($secondary-color, 10%);
+        color: $light-color; //overrides theme hover effect on links
+        text-decoration: none; //overrides theme hover effect on links
+        box-shadow: 0 2px 5px $shadow-color; //replicated from above to override the theme's shadow hover effect
     }
     &:active {
-        box-shadow: 0;
+        box-shadow: none;
+        color: $light-color; //overrides theme hover effect on links
+        text-decoration: none; //overrides theme hover effect on links
     }
 }
+
+a.btn {display: inline-block} //prevents anchor elements with button styles from overlaying content
