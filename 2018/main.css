@@ -612,6 +612,21 @@ footer {
   .footer-widget-1 form.contact-form label {
     color: white; }
 
+.sponsor-sidebar {
+  float: left;
+  width: 25%;
+  max-width: 250px;
+  text-align: center;
+  padding: 0 0.5rem; }
+  .sponsor-sidebar .wcorg-sponsor .wcorg-sponsor-description {
+    margin-bottom: 1rem; }
+  .sponsor-sidebar .wcorg-sponsor h3 {
+    display: none; }
+  .sponsor-sidebar .wcorg-sponsor h2 {
+    border-bottom: 1px dashed black;
+    border-top: 1px dashed black;
+    padding: 0.5rem; }
+
 button, input[type="submit"], .btn {
   background: #D37938;
   font-weight: normal;
