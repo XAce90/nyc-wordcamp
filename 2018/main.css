@@ -660,6 +660,11 @@ button, input[type="submit"], .btn {
   margin-bottom: 10px;
   font-weight: 600; }
 
+.home-content {
+  float: left;
+  width: 70%;
+  margin-right: 3rem; }
+
 .about-content-top {
   font-size: 18px; }
 
