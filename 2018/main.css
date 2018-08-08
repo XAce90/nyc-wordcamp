@@ -618,8 +618,6 @@ footer {
   max-width: 250px;
   text-align: center;
   padding: 0 0.5rem; }
-  .sponsor-sidebar .wcorg-sponsors .wcorg-sponsor-description {
-    margin-bottom: 1rem; }
   .sponsor-sidebar .wcorg-sponsors h3 {
     display: none; }
   .sponsor-sidebar .wcorg-sponsors h2 {
@@ -635,8 +633,10 @@ footer {
     border-right: 0;
     border-left: 0;
     box-shadow: none; }
-  .sponsor-sidebar .wcorg-sponsor:last-of-type {
-    margin-bottom: 4rem; }
+  .sponsor-sidebar .wcorg-sponsor {
+    margin-bottom: 2rem; }
+    .sponsor-sidebar .wcorg-sponsor:last-of-type {
+      margin-bottom: 4rem; }
 
 button, input[type="submit"], .btn {
   background: #D37938;
