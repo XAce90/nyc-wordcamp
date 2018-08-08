@@ -443,6 +443,9 @@ a {
     color: #222222;
     text-decoration: underline; }
 
+hr {
+  border-top: 3px dotted black; }
+
 /**
  * Clear inner floats
  */
@@ -708,12 +711,15 @@ a.btn {
   text-align: center; }
 
 .home-content .opening-ctas {
-  text-align: center; }
-  @media (min-width: 1024px) {
+  text-align: center;
+  margin-bottom: 3rem; }
+  @media (min-width: 768px) {
     .home-content .opening-ctas {
       display: flex;
       justify-content: space-around;
-      align-items: flex-start; } }
+      align-items: flex-start;
+      max-width: 500px;
+      margin: auto; } }
   .home-content .opening-ctas a {
     box-shadow: none; }
     @media (min-width: 1024px) {
