@@ -623,16 +623,20 @@ footer {
   .sponsor-sidebar .wcorg-sponsors h3 {
     display: none; }
   .sponsor-sidebar .wcorg-sponsors h2 {
-    border-bottom: 1px dashed black;
-    border-top: 1px dashed black;
+    border-bottom: 3px dotted black;
+    border-top: 3px dotted black;
     padding: 0.5rem;
+    margin-bottom: 3rem;
     display: block;
     width: 100%;
-    text-transform: none;
+    color: inherit;
+    font-size: 1.625rem;
     background: none;
     border-right: 0;
     border-left: 0;
-    box-shadow: 0; }
+    box-shadow: none; }
+  .sponsor-sidebar .wcorg-sponsor:last-of-type {
+    margin-bottom: 4rem; }
 
 button, input[type="submit"], .btn {
   background: #D37938;
