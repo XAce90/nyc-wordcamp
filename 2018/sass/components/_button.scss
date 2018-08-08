@@ -4,7 +4,7 @@
 button, input[type="submit"], input[type="reset"], .btn {
     background: $secondary-color;
     font-weight: normal;
-    border-radius: 1.5rem;
+    border-radius: 2rem;
     padding: 1rem 2rem;
     box-shadow: 0 2px 5px $shadow-color !important; //import tag override theme's more specific box-shadow
     color: $light-color;

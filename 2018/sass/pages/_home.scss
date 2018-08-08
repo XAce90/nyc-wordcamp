@@ -13,4 +13,24 @@
         font-size: 1.25rem;
         text-align: center;
     }
+
+    .opening-ctas {
+        @media (min-width: $lg){
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+        }
+        text-align: center;
+
+        a {
+            box-shadow: none; //removes theme default
+            @media (min-width: $lg){
+                width: 100px;
+            }
+            &:hover {
+                color: $text-color;
+                box-shadow: none; //preventes theme default 
+            }
+        }
+    }
 }
