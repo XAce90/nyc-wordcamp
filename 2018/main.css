@@ -644,15 +644,14 @@ button, input[type="submit"], input[type="reset"], .btn {
   font-weight: normal;
   border-radius: 1.5rem;
   padding: 1rem 2rem;
-  box-shadow: 0 2px 5px gray;
+  box-shadow: 0 2px 5px gray !important;
   color: white; }
   button:hover, button:focus, input[type="submit"]:hover, input[type="submit"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, .btn:hover, .btn:focus {
     background: #b16127;
     color: white;
-    text-decoration: none;
-    box-shadow: 0 2px 5px gray; }
+    text-decoration: none; }
   button:active, input[type="submit"]:active, input[type="reset"]:active, .btn:active {
-    box-shadow: none;
+    box-shadow: none !important;
     color: white;
     text-decoration: none; }
 
