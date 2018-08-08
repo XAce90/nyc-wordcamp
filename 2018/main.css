@@ -625,7 +625,14 @@ footer {
   .sponsor-sidebar .wcorg-sponsor h2 {
     border-bottom: 1px dashed black;
     border-top: 1px dashed black;
-    padding: 0.5rem; }
+    padding: 0.5rem;
+    display: block;
+    width: 100%;
+    text-transform: none;
+    background: none;
+    border-right: 0;
+    border-left: 0;
+    box-shadow: 0; }
 
 button, input[type="submit"], .btn {
   background: #D37938;
