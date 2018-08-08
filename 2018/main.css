@@ -650,7 +650,9 @@ button, input[type="submit"], input[type="reset"], .btn {
   border-radius: 2rem;
   padding: 1rem 2rem;
   box-shadow: 0 2px 5px gray !important;
-  color: white; }
+  color: white;
+  font-family: "Sansita", sans-serif;
+  font-size: 1.25rem; }
   button:hover, button:focus, input[type="submit"]:hover, input[type="submit"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, .btn:hover, .btn:focus {
     background: #b16127;
     color: white;
@@ -714,7 +716,7 @@ a.btn {
 
 .home-content .opening-ctas {
   text-align: center;
-  margin-bottom: 3rem; }
+  margin-bottom: 3rem !important; }
   @media (min-width: 768px) {
     .home-content .opening-ctas {
       display: flex;
