@@ -618,11 +618,11 @@ footer {
   max-width: 250px;
   text-align: center;
   padding: 0 0.5rem; }
-  .sponsor-sidebar .wcorg-sponsor .wcorg-sponsor-description {
+  .sponsor-sidebar .wcorg-sponsors .wcorg-sponsor-description {
     margin-bottom: 1rem; }
-  .sponsor-sidebar .wcorg-sponsor h3 {
+  .sponsor-sidebar .wcorg-sponsors h3 {
     display: none; }
-  .sponsor-sidebar .wcorg-sponsor h2 {
+  .sponsor-sidebar .wcorg-sponsors h2 {
     border-bottom: 1px dashed black;
     border-top: 1px dashed black;
     padding: 0.5rem;
