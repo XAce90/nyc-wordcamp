@@ -444,7 +444,9 @@ a {
     text-decoration: underline; }
 
 hr {
-  border-top: 3px dotted black; }
+  border-top: 3px dotted black;
+  background: none;
+  margin-top: 1.5em; }
 
 /**
  * Clear inner floats

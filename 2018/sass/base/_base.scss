@@ -35,5 +35,7 @@ a {
 }
 
 hr {
-  border-top: 3px dotted $dark-color;
+  border-top: 3px dotted $dark-color; //should be the same style as the dotted line elsewhere on the site -- maybe conver to sass mixin?
+  background: none;                   //overrides theme default gray
+  margin-top: 1.5em;                  //matches the theme's default bottom border
 }
