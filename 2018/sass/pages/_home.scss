@@ -29,7 +29,8 @@
             }
             &:hover {
                 color: $text-color;
-                box-shadow: none; //preventes theme default 
+                box-shadow: none; //preventes theme default
+                text-decoration: none; //prevents theme default
             }
         }
     }
