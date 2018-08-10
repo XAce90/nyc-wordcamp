@@ -27,6 +27,7 @@ html {
 a {
   color: $brand-color;
   text-decoration: none;
+  box-shadow: none !important; //override theme style
 
   @include on-event {
     color: $text-color;

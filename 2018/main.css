@@ -438,7 +438,8 @@ html {
  */
 a {
   color: #00ADBA;
-  text-decoration: none; }
+  text-decoration: none;
+  box-shadow: none !important; }
   a:hover, a:active, a:focus {
     color: #222222;
     text-decoration: underline; }
