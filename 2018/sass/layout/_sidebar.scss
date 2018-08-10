@@ -3,13 +3,18 @@
 // -----------------------------------------------------------------------------
 
 .sponsor-sidebar {
+    margin-top: 5rem;       //mobile only
+    text-align: center;
+    max-width: 300px;
+    margin: auto;
+    padding: 0 0.5rem;
     @media (min-width: $lg){
-        //todo: responsiveness!
+        margin-top: 0;
         float: left;
         width: 25%;
+        padding-left: 3rem;
+        border-left: 3px dotted $dark-color; //same as the border style on the sponsor h2, AND the hr element. make into mixin?
     }
-    text-align: center;
-    padding: 0 0.5rem;
     .wcorg-sponsors {
         h3 {
             display: none;

@@ -16,16 +16,22 @@ footer {
         li:not(:last-child) {
             margin-right: 1.5rem;
         }
+        a {
+            box-shadow: none;       //override theme default
+            img {
+                box-shadow: none;   //override theme default
+            }
+        } 
     }
 
     //override the footer widget columns widths
     .site-footer .widget-column.footer-widget-1 {
-        float: none;
-        width: 100%;
+        float: none !important;
+        width: 100% !important;
     }
     .site-footer .widget-column.footer-widget-2 {
-        float: none;
-        width: 100%;
+        float: none !important;
+        width: 100% !important;
 
         > section:last-of-type {
             padding-bottom: 0;
