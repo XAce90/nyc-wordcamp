@@ -6,15 +6,17 @@
  * The code below came from the original site (pre-2018), and manage the layout of the logo and tagline
  */
  .custom-logo-link img {
-	display: inline-block;
-	max-height: 125px !important;
+	max-height: auto;
 	width: auto;
-	opacity: .8;
 }
 
 .site-description {
-	font-size: 22px;
-	font-style: normal;
+    font-size: 1.5rem;
+    color: $color-light;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-shadow: 0 0 2px $color-dark;
+    margin-top: 0.5rem;
 }
 
 body:not(.title-tagline-hidden) .site-branding-text {
@@ -30,8 +32,11 @@ body:not(.title-tagline-hidden) .site-branding-text {
 	transition: opacity .2s;
 	text-align: center;
 	margin: 0 auto;
-	width: 300px;
-	display: block;
+    display: block;
+    padding-right: 0;
+    &:hover {
+        opacity: 1; //prevent fade on hover
+    }
 }
 
 

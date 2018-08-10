@@ -515,10 +515,8 @@ hr {
  * The code below came from the original site (pre-2018), and manage the layout of the logo and tagline
  */
 .custom-logo-link img {
-  display: inline-block;
-  max-height: 125px !important;
-  width: auto;
-  opacity: .8; }
+  max-height: auto;
+  width: auto; }
 
 .site-description {
   font-size: 22px;
