@@ -519,8 +519,12 @@ hr {
   width: auto; }
 
 .site-description {
-  font-size: 22px;
-  font-style: normal; }
+  font-size: 1.5rem;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-shadow: 0 0 2px black;
+  margin-top: 0.5rem; }
 
 body:not(.title-tagline-hidden) .site-branding-text {
   display: block;
@@ -533,8 +537,10 @@ body:not(.title-tagline-hidden) .site-branding-text {
   transition: opacity .2s;
   text-align: center;
   margin: 0 auto;
-  width: 300px;
-  display: block; }
+  display: block;
+  padding-right: 0; }
+  .site-branding a:hover {
+    opacity: 1; }
 
 /**
  * The code below is written for the 2018 theme
