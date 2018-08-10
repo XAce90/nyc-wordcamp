@@ -88,4 +88,6 @@ body:not(.title-tagline-hidden) .site-branding-text {
 //Hero Image and Title
 .custom-header {
     margin-bottom: -1.5em; //accomodates for reduced navigation height (.75em was formerly top/bottom padding)
+    background: url('https://2018.nyc.wordcamp.org/files/2018/07/times-square@2x.jpg');
+    background-size: cover;
 }

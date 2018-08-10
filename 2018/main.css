@@ -572,7 +572,9 @@ body:not(.title-tagline-hidden) .site-branding-text {
       display: block; } }
 
 .custom-header {
-  margin-bottom: -1.5em; }
+  margin-bottom: -1.5em;
+  background: url("https://2018.nyc.wordcamp.org/files/2018/07/times-square@2x.jpg");
+  background-size: cover; }
 
 footer {
   background: #122334;
