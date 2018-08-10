@@ -520,7 +520,7 @@ hr {
 
 .site-description {
   font-size: 1.5rem;
-  color: white;
+  color: white !important;
   font-weight: bold;
   letter-spacing: 2px;
   text-shadow: 0 0 2px black;
