@@ -96,3 +96,9 @@ body:not(.title-tagline-hidden) .site-branding-text {
     background: url('https://2018.nyc.wordcamp.org/files/2018/07/times-square@2x.jpg');
     background-size: cover;
 }
+
+.site-header:before{
+    height: 75px;
+    width: 100%;
+    border: 1px solid red;
+}
