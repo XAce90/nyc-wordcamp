@@ -862,11 +862,13 @@ a.btn {
 .get-involved {
   flex-direction: column;
   text-align: center; }
+  .get-involved h1 {
+    margin-top: 0px; }
 
 .involved-sections {
   width: 50%; }
   .involved-sections div {
-    margin-top: 50px; }
+    margin-top: 70px; }
   .involved-sections h3 {
     padding: 0px;
     font-family: "Source Sans Pro", sans-serif !important; }
