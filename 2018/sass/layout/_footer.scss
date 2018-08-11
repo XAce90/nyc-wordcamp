@@ -77,7 +77,11 @@ footer {
             margin-top: 10px;
         }
 
-        input[type=checkbox]{
+        span{
+            display: none;
+        }
+
+        input[type=radio]{
             margin-bottom: 0px;
             margin-left: 10px;
         }

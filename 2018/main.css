@@ -634,7 +634,9 @@ footer {
     flex-direction: row-reverse;
     align-items: center;
     margin-top: 10px; }
-  .footer-widget-1 form.contact-form input[type=checkbox] {
+  .footer-widget-1 form.contact-form span {
+    display: none; }
+  .footer-widget-1 form.contact-form input[type=radio] {
     margin-bottom: 0px;
     margin-left: 10px; }
 
