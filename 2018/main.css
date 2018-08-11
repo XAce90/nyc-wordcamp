@@ -585,6 +585,11 @@ body:not(.title-tagline-hidden) .site-branding-text {
   width: 100%;
   border: 1px solid red; }
 
+.custom-header:before {
+  height: 75px;
+  width: 100%;
+  border: 1px solid blue; }
+
 footer {
   background: #122334;
   color: white; }
