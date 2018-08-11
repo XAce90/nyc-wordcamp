@@ -615,6 +615,9 @@ footer {
   text-transform: none;
   text-align: center; }
 
+.footer-widget-1 .opt-in {
+  margin-top: 30px; }
+
 .footer-widget-1 form.contact-form {
   width: 75%;
   margin: auto; }
@@ -626,7 +629,14 @@ footer {
   .footer-widget-1 form.contact-form input[type="submit"] {
     font-size: 1rem; }
   .footer-widget-1 form.contact-form label {
-    color: white; }
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-top: 10px; }
+  .footer-widget-1 form.contact-form input[type=checkbox] {
+    margin-bottom: 0px;
+    margin-left: 10px; }
 
 .sponsor-sidebar {
   margin-top: 5rem;
