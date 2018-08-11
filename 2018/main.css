@@ -490,7 +490,7 @@ hr {
  * 1) vertically align
  * 2) horizontally stretch to fill the space
  */
-.flex-stretch, #top-menu, .about-content-bottom {
+.flex-stretch, #top-menu, .about-content-bottom, .get-involved {
   display: flex;
   align-items: center;
   justify-content: space-between; }
@@ -703,7 +703,7 @@ a.btn {
   font-size: 1.75rem;
   font-weight: bold;
   background: black;
-  border: 1px dashed white;
+  border: 4px dotted white;
   box-shadow: 0 0 0 3px black;
   padding: 0.25rem 1.25rem; }
 
@@ -858,5 +858,14 @@ a.btn {
 .tickets-intro h1 {
   text-align: center;
   margin-top: -20px; }
+
+.get-involved {
+  flex-direction: column;
+  text-align: center; }
+
+.involved-sections {
+  width: 50%; }
+  .involved-sections div:first-child {
+    margin-top: 50px; }
 
 /*# sourceMappingURL=main.css.map */

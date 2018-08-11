@@ -1,0 +1,14 @@
+.get-involved{
+	@extend .flex-stretch;
+	flex-direction: column;
+	text-align: center;
+}
+
+.involved-sections{
+	width:50%;
+
+	div:first-child{
+		margin-top: 50px;
+	}
+
+}
