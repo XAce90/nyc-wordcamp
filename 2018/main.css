@@ -583,7 +583,8 @@ body:not(.title-tagline-hidden) .site-branding-text {
 .site-header:before {
   height: 75px;
   width: 100%;
-  border: 1px solid red; }
+  border: 1px solid red;
+  display: none; }
 
 .custom-header:before {
   height: 75px;
