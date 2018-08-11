@@ -865,7 +865,10 @@ a.btn {
 
 .involved-sections {
   width: 50%; }
-  .involved-sections div:first-child {
+  .involved-sections div {
     margin-top: 50px; }
+  .involved-sections h3 {
+    padding: 0px;
+    font-family: "Source Sans Pro", sans-serif !important; }
 
 /*# sourceMappingURL=main.css.map */

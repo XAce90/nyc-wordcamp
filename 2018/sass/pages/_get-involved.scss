@@ -7,8 +7,13 @@
 .involved-sections{
 	width:50%;
 
-	div:first-child{
+	div{
 		margin-top: 50px;
+	}
+
+	h3{
+		padding: 0px;
+		font-family: $body-font-stack !important;
 	}
 
 }
