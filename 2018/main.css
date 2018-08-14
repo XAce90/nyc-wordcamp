@@ -524,7 +524,8 @@ hr {
   font-weight: bold;
   letter-spacing: 2px;
   text-shadow: 0 0 2px black;
-  margin-top: 0.5rem; }
+  margin-top: 0.5rem;
+  display: none; }
 
 body:not(.title-tagline-hidden) .site-branding-text {
   display: block;
@@ -577,10 +578,18 @@ body:not(.title-tagline-hidden) .site-branding-text {
 
 .custom-header {
   margin-bottom: -1.5em;
-  background: url("https://2018.nyc.wordcamp.org/files/2018/08/desktop-w-top@2x.jpg");
+  background: url("https://2018.nyc.wordcamp.org/files/2018/08/mobile-top@2x.jpg");
   background-size: auto;
+  background-repeat: no-repeat;
   background-position: center top;
-  height: 580px; }
+  height: 300px; }
+  @media (min-width: 768px) {
+    .custom-header {
+      height: 580px;
+      background: url("https://2018.nyc.wordcamp.org/files/2018/08/tablet-top@2x.jpg"); } }
+  @media (min-width: 1024px) {
+    .custom-header {
+      background: url("https://2018.nyc.wordcamp.org/files/2018/08/desktop-w-top@2x.jpg"); } }
 
 .navigation-top:before {
   position: absolute;

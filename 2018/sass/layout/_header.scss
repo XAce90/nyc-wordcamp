@@ -17,6 +17,7 @@
     letter-spacing: 2px;
     text-shadow: 0 0 2px $dark-color;
     margin-top: 0.5rem;
+    display: none; //Rework with background image
 }
 
 body:not(.title-tagline-hidden) .site-branding-text {
@@ -93,10 +94,20 @@ body:not(.title-tagline-hidden) .site-branding-text {
 //Hero Image and Title
 .custom-header {
     margin-bottom: -1.5em; //accomodates for reduced navigation height (.75em was formerly top/bottom padding)
-    background: url('https://2018.nyc.wordcamp.org/files/2018/08/desktop-w-top@2x.jpg');    
+    background: url('https://2018.nyc.wordcamp.org/files/2018/08/mobile-top@2x.jpg');    
     background-size: auto;
+    background-repeat: no-repeat;
     background-position: center top;
+    height: 300px;
+
+    @media (min-width: $md) {
     height: 580px;
+    background: url('https://2018.nyc.wordcamp.org/files/2018/08/tablet-top@2x.jpg');        
+    }
+
+    @media (min-width: $lg) {
+    background: url('https://2018.nyc.wordcamp.org/files/2018/08/desktop-w-top@2x.jpg');        
+    }
 }
 
 // .site-header:before{
