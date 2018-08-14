@@ -91,11 +91,14 @@ body:not(.title-tagline-hidden) .site-branding-text {
 }
  
 nav#site-navigation.main-navigation.toggled-on{
+    
+    #top-menu{
     display: block;
+    }
  }
 
 .sub-menu ul li{
-    background: $brand-color;
+    background: $brand-color !important;
     text-decoration: none;
 }
 
