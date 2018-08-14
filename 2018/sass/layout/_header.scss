@@ -97,15 +97,16 @@ body:not(.title-tagline-hidden) .site-branding-text {
     background-size: cover;
 }
 
-.site-header:before{
-    height: 75px;
-    width: 100%;
-    border: 1px solid red;
-    display: none;
-}
+// .site-header:before{
+//     height: 75px;
+//     width: 100%;
+//     border: 1px solid red;
+//     display: none;
+// }
 
-.custom-header:before{
-    height: 75px;
-    width: 100%;
-    border: 1px solid blue;
+.navigation-top:before{
+    position: absolute;
+    content: url('https://2018.nyc.wordcamp.org/files/2018/08/Sponsor-triangle@2x.png');
+    bottom: 20px;
+    left: 50%;
 }
