@@ -597,17 +597,22 @@ nav#site-navigation.main-navigation.toggled-on #top-menu {
   @media (min-width: 768px) {
     .custom-header {
       background-image: url("https://2018.nyc.wordcamp.org/files/2018/08/tablet-top@2x.jpg");
-      height: 380px; } }
+      height: 380px;
+      margin-bottom: 0px; } }
   @media (min-width: 1024px) {
     .custom-header {
       background-image: url("https://2018.nyc.wordcamp.org/files/2018/08/desktop-w-top@2x.jpg");
       height: 508px; } }
 
 .navigation-top:before {
-  position: absolute;
-  content: url("https://2018.nyc.wordcamp.org/files/2018/08/Sponsor-triangle@2x.png");
-  bottom: 20px;
-  left: 64%; }
+  display: none; }
+  @media (min-width: 768px) {
+    .navigation-top:before {
+      display: block;
+      position: absolute;
+      content: url("https://2018.nyc.wordcamp.org/files/2018/08/Sponsor-triangle@2x.png");
+      bottom: 20px;
+      left: 64%; } }
 
 footer {
   background: #122334;

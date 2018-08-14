@@ -90,6 +90,8 @@ body:not(.title-tagline-hidden) .site-branding-text {
     }
 }
  
+
+//Fixing the mobile menu that wouldn't disappear on toggle 
 nav#site-navigation.main-navigation.toggled-on{
     
     #top-menu{
@@ -119,12 +121,13 @@ nav#site-navigation.main-navigation.toggled-on{
     @media (min-width: $md) {
     background-image: url('https://2018.nyc.wordcamp.org/files/2018/08/tablet-top@2x.jpg');  
     height: 380px;
+    margin-bottom: 0px; 
     // background-size: auto;      
     }
 
     @media (min-width: $lg) {
     background-image: url('https://2018.nyc.wordcamp.org/files/2018/08/desktop-w-top@2x.jpg'); 
-    height: 508px;       
+    height: 508px;      
     }
 }
 
@@ -136,8 +139,14 @@ nav#site-navigation.main-navigation.toggled-on{
 // }
 
 .navigation-top:before{
+    display: none;
+
+    @media (min-width: $md){
+    display: block;
     position: absolute;
     content: url('https://2018.nyc.wordcamp.org/files/2018/08/Sponsor-triangle@2x.png');
     bottom: 20px;
     left: 64%;
+    
+    }
 }
