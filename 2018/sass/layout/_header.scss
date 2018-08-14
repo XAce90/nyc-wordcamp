@@ -95,16 +95,16 @@ body:not(.title-tagline-hidden) .site-branding-text {
 .custom-header {
     margin-bottom: -1.5em; //accomodates for reduced navigation height (.75em was formerly top/bottom padding)
     background-image: url('https://2018.nyc.wordcamp.org/files/2018/08/mobile-top@2x.jpg');    
-    background-size: cover;   
+    background-size: auto;   
     background-color: #05080f;
     background-repeat: no-repeat;
     background-position: center top;
-    height: 580px;
+    height: 380px;
 
     @media (min-width: $md) {
     background-image: url('https://2018.nyc.wordcamp.org/files/2018/08/tablet-top@2x.jpg');  
     height: 380px;
-    background-size: auto;      
+    // background-size: auto;      
     }
 
     @media (min-width: $lg) {
