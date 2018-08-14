@@ -578,18 +578,19 @@ body:not(.title-tagline-hidden) .site-branding-text {
 
 .custom-header {
   margin-bottom: -1.5em;
-  background: url("https://2018.nyc.wordcamp.org/files/2018/08/mobile-top@2x.jpg");
-  background-size: auto;
+  background-image: url("https://2018.nyc.wordcamp.org/files/2018/08/mobile-top@2x.jpg");
+  background-size: contain;
+  background-color: #05080f;
   background-repeat: no-repeat;
   background-position: center top;
   height: 300px; }
-  @media (min-width: 768px) {
+  @media (min-width: 500px) {
     .custom-header {
       height: 580px;
-      background: url("https://2018.nyc.wordcamp.org/files/2018/08/tablet-top@2x.jpg"); } }
+      background-image: url("https://2018.nyc.wordcamp.org/files/2018/08/tablet-top@2x.jpg"); } }
   @media (min-width: 1024px) {
     .custom-header {
-      background: url("https://2018.nyc.wordcamp.org/files/2018/08/desktop-w-top@2x.jpg"); } }
+      background-image: url("https://2018.nyc.wordcamp.org/files/2018/08/desktop-w-top@2x.jpg"); } }
 
 .navigation-top:before {
   position: absolute;
