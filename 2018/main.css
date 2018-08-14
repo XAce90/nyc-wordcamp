@@ -537,7 +537,7 @@ body:not(.title-tagline-hidden) .site-branding-text {
   transition: opacity .2s;
   text-align: center;
   margin: 0 auto;
-  display: block;
+  display: none;
   padding-right: 0; }
   .site-branding a:hover {
     opacity: 1; }
@@ -578,7 +578,9 @@ body:not(.title-tagline-hidden) .site-branding-text {
 .custom-header {
   margin-bottom: -1.5em;
   background: url("https://2018.nyc.wordcamp.org/files/2018/08/desktop-w-top@2x.jpg");
-  background-size: cover; }
+  background-size: auto;
+  background-position: center top;
+  height: 580px; }
 
 .navigation-top:before {
   position: absolute;

@@ -32,7 +32,7 @@ body:not(.title-tagline-hidden) .site-branding-text {
 	transition: opacity .2s;
 	text-align: center;
 	margin: 0 auto;
-    display: block;
+    display: none; // Put branding in with image
     padding-right: 0;
     &:hover {
         opacity: 1; //prevent fade on hover
@@ -93,8 +93,10 @@ body:not(.title-tagline-hidden) .site-branding-text {
 //Hero Image and Title
 .custom-header {
     margin-bottom: -1.5em; //accomodates for reduced navigation height (.75em was formerly top/bottom padding)
-    background: url('https://2018.nyc.wordcamp.org/files/2018/08/desktop-w-top@2x.jpg');
-    background-size: cover;
+    background: url('https://2018.nyc.wordcamp.org/files/2018/08/desktop-w-top@2x.jpg');    
+    background-size: auto;
+    background-position: center top;
+    height: 580px;
 }
 
 // .site-header:before{
