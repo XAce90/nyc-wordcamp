@@ -89,9 +89,13 @@ body:not(.title-tagline-hidden) .site-branding-text {
         display: none;
     }
 }
+ 
+nav#site-navigation.main-navigation.toggled-on{
+    display: block;
+ }
 
 .sub-menu ul li{
-    background-color: $brand-color !important;
+    background: $brand-color;
     text-decoration: none;
 }
 

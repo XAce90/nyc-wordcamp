@@ -576,8 +576,11 @@ body:not(.title-tagline-hidden) .site-branding-text {
     #top-menu {
       display: none; } }
 
+nav#site-navigation.main-navigation.toggled-on {
+  display: block; }
+
 .sub-menu ul li {
-  background-color: #00ADBA !important;
+  background: #00ADBA;
   text-decoration: none; }
 
 .custom-header {
