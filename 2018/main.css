@@ -574,7 +574,11 @@ body:not(.title-tagline-hidden) .site-branding-text {
   background: #00ADBA; }
   @media (max-width: 768px) {
     #top-menu {
-      display: block; } }
+      display: none; } }
+
+.sub-menu {
+  background-color: #00ADBA;
+  text-decoration: none; }
 
 .custom-header {
   margin-bottom: -1.5em;

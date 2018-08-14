@@ -86,10 +86,14 @@ body:not(.title-tagline-hidden) .site-branding-text {
     background: $brand-color;
     @extend .flex-stretch;
     @media (max-width: $md){
-        display: block;
+        display: none;
     }
 }
 
+.sub-menu{
+    background-color: $brand-color;
+    text-decoration: none;
+}
 
 //Hero Image and Title
 .custom-header {
