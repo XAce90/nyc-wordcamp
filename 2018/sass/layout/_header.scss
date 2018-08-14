@@ -121,7 +121,6 @@ nav#site-navigation.main-navigation.toggled-on{
     @media (min-width: $md) {
     background-image: url('https://2018.nyc.wordcamp.org/files/2018/08/tablet-top@2x.jpg');  
     height: 380px;
-    margin-bottom: 0px; 
     // background-size: auto;      
     }
 
@@ -129,6 +128,10 @@ nav#site-navigation.main-navigation.toggled-on{
     background-image: url('https://2018.nyc.wordcamp.org/files/2018/08/desktop-w-top@2x.jpg'); 
     height: 508px;      
     }
+}
+
+div.custom-header{
+    margin-bottom: 51px;
 }
 
 // .site-header:before{
