@@ -578,8 +578,11 @@ body:not(.title-tagline-hidden) .site-branding-text {
 
 nav#site-navigation.main-navigation.toggled-on #top-menu {
   display: block; }
+  @media (min-width: 768px) {
+    nav#site-navigation.main-navigation.toggled-on #top-menu {
+      display: flex; } }
 
-.sub-menu ul li {
+.main-navigation ul ul {
   background: #00ADBA !important;
   text-decoration: none; }
 

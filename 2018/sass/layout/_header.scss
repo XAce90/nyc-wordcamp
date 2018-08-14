@@ -94,10 +94,14 @@ nav#site-navigation.main-navigation.toggled-on{
     
     #top-menu{
     display: block;
+
+    @media (min-width: $md){
+        display: flex;
+    }
     }
  }
 
-.sub-menu ul li{
+.main-navigation ul ul{
     background: $brand-color !important;
     text-decoration: none;
 }
