@@ -576,8 +576,8 @@ body:not(.title-tagline-hidden) .site-branding-text {
     #top-menu {
       display: none; } }
 
-.sub-menu {
-  background-color: #00ADBA;
+.sub-menu ul li {
+  background-color: #00ADBA !important;
   text-decoration: none; }
 
 .custom-header {
