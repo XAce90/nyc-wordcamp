@@ -582,11 +582,12 @@ body:not(.title-tagline-hidden) .site-branding-text {
   background-size: cover;
   background-color: #05080f;
   background-repeat: no-repeat;
-  background-position: center top; }
-  @media (min-width: 600px) {
+  background-position: center top;
+  height: 580px; }
+  @media (min-width: 768px) {
     .custom-header {
       background-image: url("https://2018.nyc.wordcamp.org/files/2018/08/tablet-top@2x.jpg");
-      height: 400px;
+      height: 380px;
       background-size: auto; } }
   @media (min-width: 1024px) {
     .custom-header {
