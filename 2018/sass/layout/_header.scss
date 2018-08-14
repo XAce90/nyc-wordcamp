@@ -99,10 +99,8 @@ body:not(.title-tagline-hidden) .site-branding-text {
     background-color: #05080f;
     background-repeat: no-repeat;
     background-position: center top;
-    height: 300px;
 
     @media (min-width: 500px) {
-    height: 580px;
     background-image: url('https://2018.nyc.wordcamp.org/files/2018/08/tablet-top@2x.jpg');        
     }
 
