@@ -141,15 +141,27 @@ div.custom-header{
 //     display: none;
 // }
 
+/* The animation code */
+@keyframes triangle {
+    from {transform: rotate(-15deg);}
+    to {transform: rotate(15deg);}
+}
+
+
 .navigation-top:before{
     display: none;
 
     @media (min-width: $md){
     display: block;
     position: absolute;
-    content: url('https://2018.nyc.wordcamp.org/files/2018/08/Sponsor-triangle@2x.png');
+    content: url('https://2018.nyc.wordcamp.org/files/2018/08/sponsor-triangle-tablet.png');
     bottom: 20px;
     left: 64%;
-    
+    animation-name: triangle;
+    animation-duration: 1s;
+    }
+
+    @media (min-width: $lg){
+    content: url('https://2018.nyc.wordcamp.org/files/2018/08/Sponsor-triangle@2x.png');
     }
 }

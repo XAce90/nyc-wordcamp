@@ -606,15 +606,27 @@ nav#site-navigation.main-navigation.toggled-on #top-menu {
 div.custom-header {
   margin-bottom: 51px; }
 
+/* The animation code */
+@keyframes triangle {
+  from {
+    transform: rotate(-15deg); }
+  to {
+    transform: rotate(15deg); } }
+
 .navigation-top:before {
   display: none; }
   @media (min-width: 768px) {
     .navigation-top:before {
       display: block;
       position: absolute;
-      content: url("https://2018.nyc.wordcamp.org/files/2018/08/Sponsor-triangle@2x.png");
+      content: url("https://2018.nyc.wordcamp.org/files/2018/08/sponsor-triangle-tablet.png");
       bottom: 20px;
-      left: 64%; } }
+      left: 64%;
+      animation-name: triangle;
+      animation-duration: 1s; } }
+  @media (min-width: 1024px) {
+    .navigation-top:before {
+      content: url("https://2018.nyc.wordcamp.org/files/2018/08/Sponsor-triangle@2x.png"); } }
 
 footer {
   background: #122334;
