@@ -624,7 +624,8 @@ div.custom-header {
       left: 64%;
       animation-name: triangle;
       animation-duration: 1s;
-      animation-iteration-count: infinite; } }
+      animation-iteration-count: infinite;
+      animation-direction: alternate; } }
 
 footer {
   background: #122334;
