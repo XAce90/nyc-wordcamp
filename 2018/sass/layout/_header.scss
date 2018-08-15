@@ -147,22 +147,17 @@ div.custom-header{
     to {transform: rotate(5deg);}
 }
 
-
 .navigation-top:before{
     display: none;
 
     @media (min-width: $md){
     display: block;
     position: absolute;
-    content: url('https://2018.nyc.wordcamp.org/files/2018/08/Sponsor-triangle.png');
+    content: url('https://2018.nyc.wordcamp.org/files/2018/08/Sponsor-triangle@2x.png');
     bottom: 20px;
     left: 64%;
     animation-name: triangle;
     animation-duration: 1s;
     animation-iteration-count: infinite;
     }
-
-    // @media (min-width: $lg){
-    // // content: url('https://2018.nyc.wordcamp.org/files/2018/08/Sponsor-triangle@2x.png');
-    // }
 }
