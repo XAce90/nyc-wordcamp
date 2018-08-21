@@ -609,9 +609,9 @@ div.custom-header {
 /* The animation code */
 @keyframes triangle {
   from {
-    transform: rotate(-45deg); }
+    transform: rotate(-5deg); }
   to {
-    transform: rotate(-35deg); } }
+    transform: rotate(5deg); } }
 
 .navigation-top:before {
   display: none; }
