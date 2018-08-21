@@ -810,6 +810,11 @@ a.btn {
       box-shadow: none;
       text-decoration: none; }
 
+.blog-feed ul {
+  list-style-position: inside;
+  text-align: center;
+  font-size: 1.5em; }
+
 /** Override the two column layout of the theme styles */
 .blog .page-header {
   display: none; }
