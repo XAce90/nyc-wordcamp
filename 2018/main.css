@@ -752,7 +752,7 @@ a.btn {
   background: black;
   border: 4px dotted white;
   box-shadow: 0 0 0 3px black;
-  padding: 0.25rem 1.25rem; }
+  padding: 0.25rem 1.75rem; }
 
 .wcorg-speaker .avatar,
 .wcorg-organizer .avatar {
@@ -773,11 +773,13 @@ a.btn {
   border-bottom: 1px solid #222222; }
 
 .headline-teal {
-  text-transform: uppercase;
-  font-size: 32px;
+  font-size: 1.5rem;
   color: #00ADBA;
-  margin-bottom: 10px;
-  font-weight: 600; }
+  font-weight: 600;
+  font-family: "Sansita", sans-serif;
+  text-align: center; }
+  .headline-teal a {
+    text-decoration: underline; }
 
 @media (min-width: 1024px) {
   .home-content {
