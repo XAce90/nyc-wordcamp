@@ -753,9 +753,9 @@ a.btn {
   border: 4px dotted white;
   box-shadow: 0 0 0 3px black;
   padding: 0.25rem 1.75rem;
-  position: realtive;
-  left: 50%;
-  transform: translate(-50%); }
+  /*position: relative;
+    left: 50%;
+    transform: translate(-50%);*/ }
 
 .wcorg-speaker .avatar,
 .wcorg-organizer .avatar {
