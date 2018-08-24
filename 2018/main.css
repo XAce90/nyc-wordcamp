@@ -752,7 +752,10 @@ a.btn {
   background: black;
   border: 4px dotted white;
   box-shadow: 0 0 0 3px black;
-  padding: 0.25rem 1.75rem; }
+  padding: 0.25rem 1.75rem;
+  position: realtive;
+  left: 50%;
+  transform: translate(-50%); }
 
 .wcorg-speaker .avatar,
 .wcorg-organizer .avatar {
@@ -914,7 +917,11 @@ a.btn {
   margin-top: -20px; }
 
 .wcorg-sponsors img {
-  max-width: 325px; }
+  max-width: 325px;
+  margin-top: 2rem; }
+
+.wcorg-sponsors h2 {
+  margin-top: 3rem; }
 
 .get-involved {
   flex-direction: column;

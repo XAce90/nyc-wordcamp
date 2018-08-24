@@ -2,6 +2,13 @@
 // This file contains all styles related to the sponsor pages (become a sponsor and list of sponsors
 // --------------------------------------------------------------------------------------------------
 
-.wcorg-sponsors img {
-    max-width: 325px;
+.wcorg-sponsors {
+    img {
+        max-width: 325px;
+        margin-top: 2rem;
+    }
+
+    h2 { //section title
+        margin-top: 3rem;
+    }
 }
