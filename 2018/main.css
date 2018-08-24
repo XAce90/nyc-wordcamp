@@ -913,6 +913,9 @@ a.btn {
   text-align: center;
   margin-top: -20px; }
 
+.wcorg-sponsors img {
+  max-width: 325px; }
+
 .get-involved {
   flex-direction: column;
   text-align: center; }
