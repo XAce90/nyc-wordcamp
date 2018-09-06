@@ -85,7 +85,8 @@ body:not(.title-tagline-hidden) .site-branding-text {
 #top-menu {
     background: $brand-color;
     @extend .flex-stretch;
-    @media (max-width: $md){
+    @media (max-width: $md - 1){
+        // the -1 above prevents the menu missing on tablets at exactly 768px wide
         display: none;
     }
 }

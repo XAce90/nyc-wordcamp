@@ -572,7 +572,7 @@ body:not(.title-tagline-hidden) .site-branding-text {
 
 #top-menu {
   background: #00ADBA; }
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     #top-menu {
       display: none; } }
 
