@@ -1,0 +1,28 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the attendees page.
+// -----------------------------------------------------------------------------
+
+
+#tix-attendees {
+    .tix-column-2 {
+        .avatar { // makes images bigger (their default size)
+            width: 96px;
+            height: 96px;
+        }
+        .tix-field {
+            margin-left: 105px;
+        }
+        li {
+            margin-bottom: 30px;
+        }
+    }
+
+    .tix-column-3 {
+        .avatar {
+            display: none;
+        }
+        .tix-field {
+            margin-left: 0;
+        }
+    }
+}

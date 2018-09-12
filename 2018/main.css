@@ -916,6 +916,22 @@ a.btn {
   text-align: center;
   margin-top: -20px; }
 
+#tix-attendees .tix-column-2 .avatar {
+  width: 96px;
+  height: 96px; }
+
+#tix-attendees .tix-column-2 .tix-field {
+  margin-left: 105px; }
+
+#tix-attendees .tix-column-2 li {
+  margin-bottom: 30px; }
+
+#tix-attendees .tix-column-3 .avatar {
+  display: none; }
+
+#tix-attendees .tix-column-3 .tix-field {
+  margin-left: 0; }
+
 .get-involved {
   flex-direction: column;
   text-align: center; }
