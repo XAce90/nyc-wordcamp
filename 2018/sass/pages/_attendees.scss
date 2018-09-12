@@ -4,7 +4,7 @@
 
 
 #tix-attendees {
-    .tix-column-2 {
+    .tix-columns-2 {
         .avatar { // makes images bigger (their default size)
             width: 96px;
             height: 96px;
@@ -17,7 +17,7 @@
         }
     }
 
-    .tix-column-3 {
+    .tix-columns-3 {
         .avatar {
             display: none;
         }
